@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xmlns:tns="http://www.jboss.org/drools"
+                   xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL"
+                   xmlns="http://www.jboss.org/drools"
+                   expressionLanguage="http://www.mvel.org/2.0"
+                   targetNamespace="http://dsg.wiai.uniba.de/betsy/bpmn/loopTask_NoIteration_TestBeforeFalse"
+                   typeLanguage="http://www.java.com/javaTypes"
+                   xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL http://www.omg.org/spec/BPMN/20100501/BPMN20.xsd"
+                   id="LoopTask_NoIteration_TestBeforeFalseTest">
+   <bpmn2:itemDefinition id="testItem" structureRef="String"/>
+   <bpmn2:itemDefinition id="testCaseNumberItem" structureRef="Long"/>
+   <bpmn2:process tns:version="1" tns:adHoc="false" name="Test Process" processType="Private"
+                  id="LoopTask_NoIteration_TestBeforeFalse"
+                  isExecutable="true">
+      <bpmn2:property id="test" itemSubjectRef="testItem"/>
+      <bpmn2:property id="testCaseNumber" itemSubjectRef="testCaseNumberItem"/>
+      <bpmn2:startEvent id="StartEvent" name="Start">
+         <bpmn2:outgoing>SequenceFlow_2</bpmn2:outgoing>
+      </bpmn2:startEvent>
+      <bpmn2:sequenceFlow id="SequenceFlow_2" name="" sourceRef="StartEvent" targetRef="start"/>
+      <bpmn2:scriptTask scriptFormat="http://www.java.com/java" id="start" name="Start">
+         <bpmn2:incoming>SequenceFlow_2</bpmn2:incoming>
+         <bpmn2:outgoing>SequenceFlow_1</bpmn2:outgoing>
+         <bpmn2:script>try{
+java.io.File f = new java.io.File("log" + testCaseNumber + ".txt");
+f.createNewFile();
+}catch(java.io.IOException e){}</bpmn2:script>
+      </bpmn2:scriptTask>
+      <bpmn2:sequenceFlow id="SequenceFlow_1" name="" sourceRef="start" targetRef="LoopTask"/>
+      <bpmn2:scriptTask scriptFormat="http://www.java.com/java" id="LoopTask" name="Loop">
+         <bpmn2:incoming>SequenceFlow_1</bpmn2:incoming>
+         <bpmn2:outgoing>SequenceFlow_5</bpmn2:outgoing>
+         <bpmn2:standardLoopCharacteristics testBefore="false">
+            <bpmn2:loopCondition>false</bpmn2:loopCondition>
+         </bpmn2:standardLoopCharacteristics>
+         <bpmn2:script>java.io.BufferedWriter bw = new java.io.BufferedWriter(new java.io.FileWriter("log" + testCaseNumber + ".txt", true));
+try{
+bw.append("SCRIPT_task1");
+bw.newLine();
+}catch(java.io.IOException e){}finally{if(bw != null){try{bw.close();}catch(java.io.IOException e){}}}</bpmn2:script>
+      </bpmn2:scriptTask>
+      <bpmn2:sequenceFlow id="SequenceFlow_5" name="" sourceRef="LoopTask" targetRef="end"/>
+      <bpmn2:scriptTask scriptFormat="http://www.java.com/java" id="end" name="End">
+         <bpmn2:incoming>SequenceFlow_5</bpmn2:incoming>
+         <bpmn2:outgoing>SequenceFlow_4</bpmn2:outgoing>
+         <bpmn2:script>java.io.BufferedWriter bw = new java.io.BufferedWriter(new java.io.FileWriter("log" + testCaseNumber + ".txt", true));
+try{
+bw.append("SCRIPT_task2");
+bw.newLine();
+}catch(java.io.IOException e){}finally{if(bw != null){try{bw.close();}catch(java.io.IOException e){}}}</bpmn2:script>
+      </bpmn2:scriptTask>
+      <bpmn2:sequenceFlow id="SequenceFlow_4" name="" sourceRef="end" targetRef="EndEvent_2"/>
+      <bpmn2:endEvent id="EndEvent_2">
+         <bpmn2:incoming>SequenceFlow_4</bpmn2:incoming>
+      </bpmn2:endEvent>
+   </bpmn2:process>
+</bpmn2:definitions>

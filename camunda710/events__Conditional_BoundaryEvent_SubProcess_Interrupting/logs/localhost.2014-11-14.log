@@ -1,0 +1,52 @@
+Nov 14, 2014 2:00:05 PM org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+Nov 14, 2014 2:00:05 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+Nov 14, 2014 2:00:11 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Nov 14, 2014 2:00:11 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Nov 14, 2014 2:00:11 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@c030135')
+Nov 14, 2014 2:00:24 PM org.apache.catalina.core.StandardContext listenerStart
+SEVERE: Exception sending context initialized event to listener instance of class de.uniba.dsg.ProcessTestApplication
+org.camunda.bpm.engine.ProcessEngineException: Exception while performing 'Deployment of Process Application Conditional_BoundaryEvent_SubProcess_Interrupting Application => Deployment of process archive 'Conditional_BoundaryEvent_SubProcess_Interrupting': Unsupported boundary event type | Conditional_BoundaryEvent_SubProcess_Interrupting.bpmn | line 43 | column 53
+
+	at org.camunda.bpm.container.impl.jmx.kernel.MBeanDeploymentOperation.execute(MBeanDeploymentOperation.java:136)
+	at org.camunda.bpm.container.impl.jmx.kernel.MBeanServiceContainer.executeDeploymentOperation(MBeanServiceContainer.java:128)
+	at org.camunda.bpm.container.impl.jmx.kernel.MBeanDeploymentOperation$MBeanDeploymentOperationBuilder.execute(MBeanDeploymentOperation.java:211)
+	at org.camunda.bpm.container.impl.jmx.JmxRuntimeContainerDelegate.deployProcessApplication(JmxRuntimeContainerDelegate.java:137)
+	at org.camunda.bpm.application.AbstractProcessApplication.deploy(AbstractProcessApplication.java:49)
+	at org.camunda.bpm.application.impl.ServletProcessApplication.contextInitialized(ServletProcessApplication.java:131)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4959)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5455)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:634)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1074)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1858)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.camunda.bpm.engine.ProcessEngineException: Unsupported boundary event type | Conditional_BoundaryEvent_SubProcess_Interrupting.bpmn | line 43 | column 53
+
+	at org.camunda.bpm.engine.impl.util.xml.Parse.throwExceptionForErrors(Parse.java:183)
+	at org.camunda.bpm.engine.impl.bpmn.parser.BpmnParse.execute(BpmnParse.java:177)
+	at org.camunda.bpm.engine.impl.bpmn.deployer.BpmnDeployer.deploy(BpmnDeployer.java:106)
+	at org.camunda.bpm.engine.impl.persistence.deploy.DeploymentCache.deploy(DeploymentCache.java:50)
+	at org.camunda.bpm.engine.impl.persistence.entity.DeploymentManager.insertDeployment(DeploymentManager.java:42)
+	at org.camunda.bpm.engine.impl.cmd.DeployCmd.execute(DeployCmd.java:81)
+	at org.camunda.bpm.engine.impl.cmd.DeployCmd.execute(DeployCmd.java:50)
+	at org.camunda.bpm.engine.impl.interceptor.CommandExecutorImpl.execute(CommandExecutorImpl.java:24)
+	at org.camunda.bpm.engine.impl.interceptor.CommandContextInterceptor.execute(CommandContextInterceptor.java:90)
+	at org.camunda.bpm.engine.impl.interceptor.LogInterceptor.execute(LogInterceptor.java:32)
+	at org.camunda.bpm.engine.impl.RepositoryServiceImpl.deploy(RepositoryServiceImpl.java:53)
+	at org.camunda.bpm.engine.impl.repository.DeploymentBuilderImpl.deploy(DeploymentBuilderImpl.java:126)
+	at org.camunda.bpm.engine.impl.repository.ProcessApplicationDeploymentBuilderImpl.deploy(ProcessApplicationDeploymentBuilderImpl.java:50)
+	at org.camunda.bpm.container.impl.jmx.deployment.DeployProcessArchiveStep.performOperationStep(DeployProcessArchiveStep.java:125)
+	at org.camunda.bpm.container.impl.jmx.kernel.MBeanDeploymentOperation.execute(MBeanDeploymentOperation.java:119)
+	... 18 more
+

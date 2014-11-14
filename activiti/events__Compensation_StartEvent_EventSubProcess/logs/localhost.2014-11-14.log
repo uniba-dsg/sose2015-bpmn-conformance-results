@@ -1,0 +1,10 @@
+Nov 14, 2014 2:56:21 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Nov 14, 2014 2:56:21 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Nov 14, 2014 2:56:21 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@463ea18c')
+Nov 14, 2014 2:56:23 PM org.apache.catalina.core.ApplicationContext log
+INFO: RestletServlet: [Restlet] ServerServlet: component class is null
+Nov 14, 2014 2:56:23 PM org.apache.catalina.core.ApplicationContext log
+INFO: RestletServlet: [Restlet] Attaching application: org.activiti.rest.service.application.ActivitiRestServicesApplication@983b049 to URI: /activiti-rest/service

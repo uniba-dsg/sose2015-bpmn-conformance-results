@@ -1,0 +1,927 @@
+09:22:15,029 INFO  [org.jboss.as.configadmin] (ServerService Thread Pool -- 32) JBAS016200: Activating ConfigAdmin Subsystem
+09:22:15,053 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 37) JBAS010280: Activating Infinispan subsystem.
+09:22:15,053 INFO  [org.jboss.as.osgi] (ServerService Thread Pool -- 49) JBAS011940: Activating OSGi Subsystem
+09:22:15,057 INFO  [org.jboss.as.jacorb] (ServerService Thread Pool -- 38) JBAS016300: Activating JacORB Subsystem
+09:22:15,058 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 48) JBAS011800: Activating Naming Subsystem
+09:22:15,064 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 58) JBAS015537: Activating WebServices Extension
+09:22:15,070 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 54) JBAS013101: Activating Security Subsystem
+09:22:15,072 INFO  [org.jboss.as.connector] (MSC service thread 1-2) JBAS010408: Starting JCA Subsystem (JBoss IronJacamar 1.0.9.Final)
+09:22:15,076 INFO  [org.jboss.as.security] (MSC service thread 1-3) JBAS013100: Current PicketBox version=4.0.7.Final
+09:22:15,130 INFO  [org.jboss.as.naming] (MSC service thread 1-2) JBAS011802: Starting Naming Service
+09:22:15,135 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) JBAS015400: Bound mail session [java:jboss/mail/Default]
+09:22:15,141 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+09:22:15,167 INFO  [org.jboss.jaxr] (MSC service thread 1-5) JBAS014000: Started JAXR subsystem, binding JAXR connection factory into JNDI as: java:jboss/jaxr/ConnectionFactory
+09:22:15,173 INFO  [org.jboss.ws.common.management.AbstractServerConfig] (MSC service thread 1-14) JBoss Web Services - Stack CXF Server 4.0.2.GA
+09:22:15,305 WARN  [org.jboss.as.messaging] (MSC service thread 1-1) JBAS011600: AIO wasn't located on this platform, it will fall back to using pure Java NIO. If your platform is Linux, install LibAIO to enable the AIO journal
+09:22:15,316 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-9) Starting Coyote HTTP/1.1 on http-localhost-127.0.0.1-8080
+09:22:15,341 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-14) JBAS015012: Started FileSystemDeploymentService for directory C:\betsy_master\server\jbpm\jboss-as-7.1.1.Final\standalone\deployments
+09:22:15,343 INFO  [org.jboss.as.remoting] (MSC service thread 1-6) JBAS017100: Listening on /127.0.0.1:9999
+09:22:15,343 INFO  [org.jboss.as.remoting] (MSC service thread 1-2) JBAS017100: Listening on localhost/127.0.0.1:4447
+09:22:15,412 WARN  [jacorb.codeset] (MSC service thread 1-8) Warning - unknown codeset (Cp1252) - defaulting to ISO-8859-1
+09:22:15,424 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-12) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+09:22:15,424 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-10) JBAS010400: Bound data source [java:jboss/datasources/jbpmDS]
+09:22:15,431 INFO  [org.jboss.as.jacorb] (MSC service thread 1-8) JBAS016330: CORBA ORB Service started
+09:22:15,471 INFO  [org.jboss.as.jacorb] (MSC service thread 1-14) JBAS016328: CORBA Naming Service started
+09:22:18,864 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-1) live server is starting with configuration HornetQ Configuration (clustered=false,backup=false,sharedStore=true,journalDirectory=C:\betsy_master\server\jbpm\jboss-as-7.1.1.Final\standalone\data\messagingjournal,bindingsDirectory=C:\betsy_master\server\jbpm\jboss-as-7.1.1.Final\standalone\data\messagingbindings,largeMessagesDirectory=C:\betsy_master\server\jbpm\jboss-as-7.1.1.Final\standalone\data\messaginglargemessages,pagingDirectory=C:\betsy_master\server\jbpm\jboss-as-7.1.1.Final\standalone\data\messagingpaging)
+09:22:18,880 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-1) Waiting to obtain live lock
+09:22:18,905 INFO  [org.hornetq.core.persistence.impl.journal.JournalStorageManager] (MSC service thread 1-1) Using NIO Journal
+09:22:19,112 INFO  [org.hornetq.core.server.impl.FileLockNodeManager] (MSC service thread 1-1) Waiting to obtain live lock
+09:22:19,116 INFO  [org.hornetq.core.server.impl.FileLockNodeManager] (MSC service thread 1-1) Live Server Obtained live lock
+09:22:21,388 INFO  [org.hornetq.core.remoting.impl.netty.NettyAcceptor] (MSC service thread 1-1) Started Netty Acceptor version 3.2.5.Final-a96d88c localhost:5455 for CORE protocol
+09:22:21,392 INFO  [org.hornetq.core.remoting.impl.netty.NettyAcceptor] (MSC service thread 1-1) Started Netty Acceptor version 3.2.5.Final-a96d88c localhost:5445 for CORE protocol
+09:22:21,396 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-1) Server is now live
+09:22:21,398 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-1) HornetQ Server version 2.2.13.Final (HQ_2_2_13_FINAL_AS7, 122) [5854a3b3-6bd7-11e4-9eaa-001999bf076c]) started
+09:22:21,403 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-11) trying to deploy queue jms.topic.testTopic
+09:22:21,445 INFO  [org.jboss.as.deployment.connector] (MSC service thread 1-13) JBAS010406: Registered connection factory java:/JmsXA
+09:22:21,453 INFO  [org.hornetq.ra.HornetQResourceAdapter] (MSC service thread 1-13) HornetQ resource adaptor started
+09:22:21,455 INFO  [org.jboss.as.connector.services.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-13) IJ020002: Deployed: file://RaActivatorhornetq-ra
+09:22:21,459 INFO  [org.jboss.as.deployment.connector] (MSC service thread 1-9) JBAS010401: Bound JCA ConnectionFactory [java:/JmsXA]
+09:22:22,242 INFO  [org.jboss.as.messaging] (MSC service thread 1-11) JBAS011601: Bound messaging object to jndi name java:/topic/test
+09:22:22,246 INFO  [org.jboss.as.messaging] (MSC service thread 1-11) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/topic/test
+09:22:22,253 INFO  [org.jboss.as.messaging] (MSC service thread 1-4) JBAS011601: Bound messaging object to jndi name java:/ConnectionFactory
+09:22:22,257 INFO  [org.jboss.as.messaging] (MSC service thread 1-1) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+09:22:22,260 INFO  [org.jboss.as.messaging] (MSC service thread 1-1) JBAS011601: Bound messaging object to jndi name java:/RemoteConnectionFactory
+09:22:22,265 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-6) trying to deploy queue jms.queue.testQueue
+09:22:22,624 INFO  [org.jboss.as.messaging] (MSC service thread 1-6) JBAS011601: Bound messaging object to jndi name java:/queue/test
+09:22:22,628 INFO  [org.jboss.as.messaging] (MSC service thread 1-6) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/queue/test
+09:22:22,668 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015876: Starting deployment of "dashboard-builder.war"
+09:22:22,668 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015876: Starting deployment of "jbpm-console.war"
+09:22:25,890 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-7) JBAS018567: Deployment "deployment.dashboard-builder.war" is using a private module ("org.apache.commons.lang:main") which may be changed or removed in future versions without notice.
+09:22:25,896 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-7) JBAS018567: Deployment "deployment.dashboard-builder.war" is using a private module ("org.apache.commons.lang:main") which may be changed or removed in future versions without notice.
+09:22:25,901 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-7) JBAS018567: Deployment "deployment.dashboard-builder.war" is using a private module ("org.apache.commons.io:main") which may be changed or removed in future versions without notice.
+09:22:25,906 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-7) JBAS018567: Deployment "deployment.dashboard-builder.war" is using a private module ("org.apache.commons.io:main") which may be changed or removed in future versions without notice.
+09:22:25,912 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-7) JBAS018567: Deployment "deployment.dashboard-builder.war" is using a private module ("org.apache.commons.collections:main") which may be changed or removed in future versions without notice.
+09:22:25,917 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-7) JBAS018567: Deployment "deployment.dashboard-builder.war" is using a private module ("org.apache.commons.collections:main") which may be changed or removed in future versions without notice.
+09:22:25,922 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-7) JBAS018567: Deployment "deployment.dashboard-builder.war" is using a private module ("org.apache.commons.codec:main") which may be changed or removed in future versions without notice.
+09:22:25,927 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-7) JBAS018567: Deployment "deployment.dashboard-builder.war" is using a private module ("org.apache.commons.codec:main") which may be changed or removed in future versions without notice.
+09:22:25,932 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-7) JBAS018567: Deployment "deployment.dashboard-builder.war" is using a private module ("org.jboss.ironjacamar.jdbcadapters:main") which may be changed or removed in future versions without notice.
+09:22:25,938 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-7) JBAS018567: Deployment "deployment.dashboard-builder.war" is using a private module ("org.jboss.ironjacamar.jdbcadapters:main") which may be changed or removed in future versions without notice.
+09:22:25,990 INFO  [org.jboss.weld.deployer] (MSC service thread 1-10) JBAS016002: Processing weld deployment dashboard-builder.war
+09:22:26,064 INFO  [org.jboss.weld.deployer] (MSC service thread 1-15) JBAS016005: Starting Services for CDI deployment: dashboard-builder.war
+09:22:26,111 INFO  [org.jboss.weld.Version] (MSC service thread 1-15) WELD-000900 1.1.5 (AS71)
+09:22:26,139 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) JBAS016008: Starting weld service for deployment dashboard-builder.war
+09:22:27,326 INFO  [org.jboss.dashboard.ui.controller.ControllerServlet] (MSC service thread 1-12) Application Directory: C:/betsy_master/server/jbpm/jboss-as-7.1.1.Final/standalone/tmp/vfs/temp4a9bbf66bd6d539e/dashboard-builder.war-2b6233aef4df2a72/.
+09:22:27,329 INFO  [org.jboss.dashboard.ui.controller.ControllerServlet] (MSC service thread 1-12) Application Config Directory: C:/betsy_master/server/jbpm/jboss-as-7.1.1.Final/standalone/tmp/vfs/temp4a9bbf66bd6d539e/dashboard-builder.war-2b6233aef4df2a72/./WEB-INF/etc
+09:22:27,350 INFO  [org.jboss.dashboard.factory.Factory] (MSC service thread 1-12) Configuring Factory from directory: C:\betsy_master\server\jbpm\jboss-as-7.1.1.Final\standalone\tmp\vfs\temp4a9bbf66bd6d539e\dashboard-builder.war-2b6233aef4df2a72\.\WEB-INF\etc\factory
+09:22:27,408 INFO  [org.jboss.dashboard.factory.Factory] (MSC service thread 1-12) Factory configured.
+09:22:27,540 INFO  [org.hibernate.annotations.common.Version] (MSC service thread 1-12) HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+09:22:27,545 INFO  [org.hibernate.Version] (MSC service thread 1-12) HHH000412: Hibernate Core {4.0.1.Final}
+09:22:27,547 INFO  [org.hibernate.cfg.Environment] (MSC service thread 1-12) HHH000206: hibernate.properties not found
+09:22:27,549 INFO  [org.hibernate.cfg.Environment] (MSC service thread 1-12) HHH000021: Bytecode provider name : javassist
+09:22:27,560 INFO  [org.hibernate.cfg.Configuration] (MSC service thread 1-12) HHH000042: Configuring from file: hibernate.cfg.xml
+09:22:27,584 INFO  [org.hibernate.cfg.Configuration] (MSC service thread 1-12) HHH000041: Configured SessionFactory: null
+09:22:31,056 INFO  [org.jboss.dashboard.database.hibernate.HibernateInitializer] (MSC service thread 1-12) The underlying database is: h2
+09:22:31,328 INFO  [org.hibernate.dialect.Dialect] (MSC service thread 1-12) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+09:22:31,335 WARN  [org.hibernate.dialect.H2Dialect] (MSC service thread 1-12) HHH000431: Unable to determine H2 database version, certain features may not work
+09:22:31,339 INFO  [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] (MSC service thread 1-12) HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+09:22:31,345 INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] (MSC service thread 1-12) HHH000399: Using default transaction strategy (direct JDBC transactions)
+09:22:31,350 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (MSC service thread 1-12) HHH000397: Using ASTQueryTranslatorFactory
+09:22:31,371 INFO  [org.hibernate.validator.util.Version] (MSC service thread 1-12) Hibernate Validator 4.2.0.Final
+09:22:31,681 WARN  [org.jboss.dashboard.database.DatabaseAutoSynchronizer] (MSC service thread 1-12) Running file 1-create-h2.sql
+09:22:31,839 INFO  [org.jboss.dashboard.workspace.PanelsProvidersManagerImpl] (MSC service thread 1-12) Loading panels. Scanning dir: C:\betsy_master\server\jbpm\jboss-as-7.1.1.Final\standalone\tmp\vfs\temp4a9bbf66bd6d539e\dashboard-builder.war-2b6233aef4df2a72\WEB-INF\etc\panels
+09:22:31,844 INFO  [org.jboss.dashboard.workspace.PanelsProvidersManagerImpl] (MSC service thread 1-12) Reading file: C:\betsy_master\server\jbpm\jboss-as-7.1.1.Final\standalone\tmp\vfs\temp4a9bbf66bd6d539e\dashboard-builder.war-2b6233aef4df2a72\.\WEB-INF\etc\panels\dashboard\dashb_filter.panel
+09:22:31,871 INFO  [org.jboss.dashboard.workspace.PanelsProvidersManagerImpl] (MSC service thread 1-12) Reading file: C:\betsy_master\server\jbpm\jboss-as-7.1.1.Final\standalone\tmp\vfs\temp4a9bbf66bd6d539e\dashboard-builder.war-2b6233aef4df2a72\.\WEB-INF\etc\panels\dashboard\dashb_html_editor.panel
+09:22:31,876 INFO  [org.jboss.dashboard.workspace.PanelsProvidersManagerImpl] (MSC service thread 1-12) Reading file: C:\betsy_master\server\jbpm\jboss-as-7.1.1.Final\standalone\tmp\vfs\temp4a9bbf66bd6d539e\dashboard-builder.war-2b6233aef4df2a72\.\WEB-INF\etc\panels\dashboard\dashb_kpi.panel
+09:22:31,881 INFO  [org.jboss.dashboard.workspace.PanelsProvidersManagerImpl] (MSC service thread 1-12) Reading file: C:\betsy_master\server\jbpm\jboss-as-7.1.1.Final\standalone\tmp\vfs\temp4a9bbf66bd6d539e\dashboard-builder.war-2b6233aef4df2a72\.\WEB-INF\etc\panels\dashboard\dashb_providermgr.panel
+09:22:31,886 INFO  [org.jboss.dashboard.workspace.PanelsProvidersManagerImpl] (MSC service thread 1-12) Reading file: C:\betsy_master\server\jbpm\jboss-as-7.1.1.Final\standalone\tmp\vfs\temp4a9bbf66bd6d539e\dashboard-builder.war-2b6233aef4df2a72\.\WEB-INF\etc\panels\navigation\breadCrumb\breadCrumb.panel
+09:22:31,890 INFO  [org.jboss.dashboard.workspace.PanelsProvidersManagerImpl] (MSC service thread 1-12) Reading file: C:\betsy_master\server\jbpm\jboss-as-7.1.1.Final\standalone\tmp\vfs\temp4a9bbf66bd6d539e\dashboard-builder.war-2b6233aef4df2a72\.\WEB-INF\etc\panels\navigation\logout\logout.panel
+09:22:31,895 INFO  [org.jboss.dashboard.workspace.PanelsProvidersManagerImpl] (MSC service thread 1-12) Reading file: C:\betsy_master\server\jbpm\jboss-as-7.1.1.Final\standalone\tmp\vfs\temp4a9bbf66bd6d539e\dashboard-builder.war-2b6233aef4df2a72\.\WEB-INF\etc\panels\navigation\navigator_language_horiz.panel
+09:22:31,899 INFO  [org.jboss.dashboard.workspace.PanelsProvidersManagerImpl] (MSC service thread 1-12) Reading file: C:\betsy_master\server\jbpm\jboss-as-7.1.1.Final\standalone\tmp\vfs\temp4a9bbf66bd6d539e\dashboard-builder.war-2b6233aef4df2a72\.\WEB-INF\etc\panels\navigation\navigator_sections.panel
+09:22:31,903 INFO  [org.jboss.dashboard.workspace.PanelsProvidersManagerImpl] (MSC service thread 1-12) Reading file: C:\betsy_master\server\jbpm\jboss-as-7.1.1.Final\standalone\tmp\vfs\temp4a9bbf66bd6d539e\dashboard-builder.war-2b6233aef4df2a72\.\WEB-INF\etc\panels\navigation\navigator_sections_horiz.panel
+09:22:31,908 INFO  [org.jboss.dashboard.workspace.PanelsProvidersManagerImpl] (MSC service thread 1-12) Reading file: C:\betsy_master\server\jbpm\jboss-as-7.1.1.Final\standalone\tmp\vfs\temp4a9bbf66bd6d539e\dashboard-builder.war-2b6233aef4df2a72\.\WEB-INF\etc\panels\navigation\navigator_sections_vert.panel
+09:22:31,912 INFO  [org.jboss.dashboard.workspace.PanelsProvidersManagerImpl] (MSC service thread 1-12) Reading file: C:\betsy_master\server\jbpm\jboss-as-7.1.1.Final\standalone\tmp\vfs\temp4a9bbf66bd6d539e\dashboard-builder.war-2b6233aef4df2a72\.\WEB-INF\etc\panels\navigation\navigator_workspace.panel
+09:22:31,916 INFO  [org.jboss.dashboard.workspace.PanelsProvidersManagerImpl] (MSC service thread 1-12) Reading file: C:\betsy_master\server\jbpm\jboss-as-7.1.1.Final\standalone\tmp\vfs\temp4a9bbf66bd6d539e\dashboard-builder.war-2b6233aef4df2a72\.\WEB-INF\etc\panels\navigation\navigator_workspace_horiz.panel
+09:22:31,920 INFO  [org.jboss.dashboard.workspace.PanelsProvidersManagerImpl] (MSC service thread 1-12) Reading file: C:\betsy_master\server\jbpm\jboss-as-7.1.1.Final\standalone\tmp\vfs\temp4a9bbf66bd6d539e\dashboard-builder.war-2b6233aef4df2a72\.\WEB-INF\etc\panels\navigation\navigator_workspace_vert.panel
+09:22:31,925 INFO  [org.jboss.dashboard.workspace.PanelsProvidersManagerImpl] (MSC service thread 1-12) Reading file: C:\betsy_master\server\jbpm\jboss-as-7.1.1.Final\standalone\tmp\vfs\temp4a9bbf66bd6d539e\dashboard-builder.war-2b6233aef4df2a72\.\WEB-INF\etc\panels\navigation\tree\treeMenu.panel
+09:22:31,929 INFO  [org.jboss.dashboard.workspace.PanelsProvidersManagerImpl] (MSC service thread 1-12) Reading file: C:\betsy_master\server\jbpm\jboss-as-7.1.1.Final\standalone\tmp\vfs\temp4a9bbf66bd6d539e\dashboard-builder.war-2b6233aef4df2a72\.\WEB-INF\etc\panels\system\dashboardExport\dashb_export.panel
+09:22:31,933 INFO  [org.jboss.dashboard.workspace.PanelsProvidersManagerImpl] (MSC service thread 1-12) Reading file: C:\betsy_master\server\jbpm\jboss-as-7.1.1.Final\standalone\tmp\vfs\temp4a9bbf66bd6d539e\dashboard-builder.war-2b6233aef4df2a72\.\WEB-INF\etc\panels\system\dashboardImport\dashb_import.panel
+09:22:31,938 INFO  [org.jboss.dashboard.workspace.PanelsProvidersManagerImpl] (MSC service thread 1-12) Reading file: C:\betsy_master\server\jbpm\jboss-as-7.1.1.Final\standalone\tmp\vfs\temp4a9bbf66bd6d539e\dashboard-builder.war-2b6233aef4df2a72\.\WEB-INF\etc\panels\system\dataSourceManagement\DataSourceManager.panel
+09:22:31,943 INFO  [org.jboss.dashboard.workspace.PanelsProvidersManagerImpl] (MSC service thread 1-12) Reading file: C:\betsy_master\server\jbpm\jboss-as-7.1.1.Final\standalone\tmp\vfs\temp4a9bbf66bd6d539e\dashboard-builder.war-2b6233aef4df2a72\.\WEB-INF\etc\panels\system\workspaceExport\workspaceImportexport.panel
+09:22:32,123 INFO  [org.jboss.dashboard.cluster.ClusterNodesManager] (MSC service thread 1-12) Registering cluster node with ip address fe80:0:0:0:c92b:767a:4f9b:f35%17
+09:22:32,147 INFO  [org.jboss.dashboard.cluster.ClusterNodesManager] (MSC service thread 1-12) Successfuly resgister cluster node with ip address fe80:0:0:0:c92b:767a:4f9b:f35%17 and identifier 1000
+09:22:32,150 INFO  [org.jboss.dashboard.workspace.GraphicElementManagerImpl] (MSC service thread 1-12) Starting org.jboss.dashboard.workspace.LayoutsManagerImpl
+09:22:32,155 INFO  [org.jboss.dashboard.workspace.GraphicElementManagerImpl] (MSC service thread 1-12) Deploying to database Layout C:\betsy_master\server\jbpm\jboss-as-7.1.1.Final\standalone\tmp\vfs\temp4a9bbf66bd6d539e\dashboard-builder.war-2b6233aef4df2a72\.\WEB-INF\etc\layouts\Default_Layout.zip
+09:22:32,182 INFO  [org.jboss.dashboard.workspace.GraphicElementManagerImpl] (MSC service thread 1-12) Deploying to database Layout C:\betsy_master\server\jbpm\jboss-as-7.1.1.Final\standalone\tmp\vfs\temp4a9bbf66bd6d539e\dashboard-builder.war-2b6233aef4df2a72\.\WEB-INF\etc\layouts\Default_template_with_sliding_menu.zip
+09:22:32,211 INFO  [org.jboss.dashboard.workspace.GraphicElementManagerImpl] (MSC service thread 1-12) Deploying to database Layout C:\betsy_master\server\jbpm\jboss-as-7.1.1.Final\standalone\tmp\vfs\temp4a9bbf66bd6d539e\dashboard-builder.war-2b6233aef4df2a72\.\WEB-INF\etc\layouts\jbpmLayout.zip
+09:22:32,220 INFO  [org.jboss.dashboard.workspace.GraphicElementManagerImpl] (MSC service thread 1-12) Deploying to database Layout C:\betsy_master\server\jbpm\jboss-as-7.1.1.Final\standalone\tmp\vfs\temp4a9bbf66bd6d539e\dashboard-builder.war-2b6233aef4df2a72\.\WEB-INF\etc\layouts\Template_25-50-25.zip
+09:22:32,229 INFO  [org.jboss.dashboard.workspace.GraphicElementManagerImpl] (MSC service thread 1-12) Deploying to database Layout C:\betsy_master\server\jbpm\jboss-as-7.1.1.Final\standalone\tmp\vfs\temp4a9bbf66bd6d539e\dashboard-builder.war-2b6233aef4df2a72\.\WEB-INF\etc\layouts\Template_25-75.zip
+09:22:32,237 INFO  [org.jboss.dashboard.workspace.GraphicElementManagerImpl] (MSC service thread 1-12) Deploying to database Layout C:\betsy_master\server\jbpm\jboss-as-7.1.1.Final\standalone\tmp\vfs\temp4a9bbf66bd6d539e\dashboard-builder.war-2b6233aef4df2a72\.\WEB-INF\etc\layouts\Template_75-25.zip
+09:22:32,246 INFO  [org.jboss.dashboard.ui.resources.GraphicElement] (MSC service thread 1-12) Deploying files for org.jboss.dashboard.ui.resources.Layout Default_Layout
+09:22:32,326 INFO  [org.jboss.dashboard.ui.resources.GraphicElement] (MSC service thread 1-12) Deploying files for org.jboss.dashboard.ui.resources.Layout Default_template_with_sliding_menu
+09:22:32,465 INFO  [org.jboss.dashboard.ui.resources.GraphicElement] (MSC service thread 1-12) Deploying files for org.jboss.dashboard.ui.resources.Layout Template_25-50-25
+09:22:32,779 INFO  [org.jboss.dashboard.ui.resources.GraphicElement] (MSC service thread 1-12) Deploying files for org.jboss.dashboard.ui.resources.Layout Template_25-75
+09:22:33,685 INFO  [org.jboss.dashboard.ui.resources.GraphicElement] (MSC service thread 1-12) Deploying files for org.jboss.dashboard.ui.resources.Layout Template_75-25
+09:22:33,711 INFO  [org.jboss.dashboard.ui.resources.GraphicElement] (MSC service thread 1-12) Deploying files for org.jboss.dashboard.ui.resources.Layout jbpmLayout
+09:22:33,830 INFO  [org.jboss.dashboard.workspace.GraphicElementManagerImpl] (MSC service thread 1-12) Starting org.jboss.dashboard.workspace.EnvelopesManagerImpl
+09:22:33,834 INFO  [org.jboss.dashboard.workspace.GraphicElementManagerImpl] (MSC service thread 1-12) Deploying to database Envelope C:\betsy_master\server\jbpm\jboss-as-7.1.1.Final\standalone\tmp\vfs\temp4a9bbf66bd6d539e\dashboard-builder.war-2b6233aef4df2a72\.\WEB-INF\etc\envelopes\Default_Envelope.zip
+09:22:33,846 INFO  [org.jboss.dashboard.workspace.GraphicElementManagerImpl] (MSC service thread 1-12) Deploying to database Envelope C:\betsy_master\server\jbpm\jboss-as-7.1.1.Final\standalone\tmp\vfs\temp4a9bbf66bd6d539e\dashboard-builder.war-2b6233aef4df2a72\.\WEB-INF\etc\envelopes\jbpmEnvelope.zip
+09:22:33,856 INFO  [org.jboss.dashboard.ui.resources.GraphicElement] (MSC service thread 1-12) Deploying files for org.jboss.dashboard.ui.resources.Envelope Default_Envelope
+09:22:34,132 INFO  [org.jboss.dashboard.ui.resources.GraphicElement] (MSC service thread 1-12) Deploying files for org.jboss.dashboard.ui.resources.Envelope jbpmEnvelope
+09:22:35,852 INFO  [org.jboss.dashboard.workspace.GraphicElementManagerImpl] (MSC service thread 1-12) Starting org.jboss.dashboard.workspace.ResourceGalleryManagerImpl
+09:22:35,858 INFO  [org.jboss.dashboard.workspace.GraphicElementManagerImpl] (MSC service thread 1-12) Starting org.jboss.dashboard.workspace.SkinsManagerImpl
+09:22:35,869 INFO  [org.jboss.dashboard.workspace.GraphicElementManagerImpl] (MSC service thread 1-12) Deploying to database Skin C:\betsy_master\server\jbpm\jboss-as-7.1.1.Final\standalone\tmp\vfs\temp4a9bbf66bd6d539e\dashboard-builder.war-2b6233aef4df2a72\.\WEB-INF\etc\skins\Default_Skin.zip
+09:22:35,877 INFO  [org.jboss.dashboard.ui.resources.GraphicElement] (MSC service thread 1-12) Deploying files for org.jboss.dashboard.ui.resources.Skin Default_Skin
+09:22:36,118 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (MSC service thread 1-12) Parsing KPI's XML file: WEB-INF/etc/appdata/initialData/showcaseKPIs.xml
+09:22:36,363 INFO  [org.jboss.dashboard.profiler.memory.MemoryProfiler] (MSC service thread 1-12) Freed 58.563 Mb bytes. Total = 345.938 Mb. Free = 293.347 Mb (84.79757%)
+09:22:36,548 INFO  [org.jboss.dashboard.profiler.memory.MemoryProfiler] (MSC service thread 1-12) Freed -51588384 bytes bytes. Total = 297.438 Mb. Free = 243.457 Mb (81.85135%)
+09:22:36,686 INFO  [org.jboss.dashboard.profiler.memory.MemoryProfiler] (MSC service thread 1-12) Freed 50.513 Mb bytes. Total = 346.5 Mb. Free = 293.969 Mb (84.839645%)
+09:22:36,825 INFO  [org.jboss.dashboard.profiler.memory.MemoryProfiler] (MSC service thread 1-12) Freed -733408 bytes bytes. Total = 346.375 Mb. Free = 293.27 Mb (84.668335%)
+09:22:36,965 INFO  [org.jboss.dashboard.profiler.memory.MemoryProfiler] (MSC service thread 1-12) Freed 213.555 Kb bytes. Total = 347.375 Mb. Free = 293.453 Mb (84.477425%)
+09:22:37,214 INFO  [org.jboss.dashboard.profiler.memory.MemoryProfiler] (MSC service thread 1-12) Freed -39357496 bytes bytes. Total = 300.188 Mb. Free = 245.116 Mb (81.654366%)
+09:22:37,355 INFO  [org.jboss.dashboard.profiler.memory.MemoryProfiler] (MSC service thread 1-12) Freed 42.893 Mb bytes. Total = 342.938 Mb. Free = 288.009 Mb (83.98301%)
+09:22:37,549 INFO  [org.jboss.dashboard.profiler.memory.MemoryProfiler] (MSC service thread 1-12) Freed -36783784 bytes bytes. Total = 300.438 Mb. Free = 243.719 Mb (81.121254%)
+09:22:37,771 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (MSC service thread 1-12) BAM_00000 - Data provider created. dataprovider_63791223772073037, Expense reports demo.
+09:22:37,774 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (MSC service thread 1-12) BAM_00000 - Data provider created. dataprovider_29881353499006573, Sales dashboard demo.
+09:22:37,776 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (MSC service thread 1-12) BAM_00001 - Business indicator created. kpi_64011223773089901, Expense evolution.
+09:22:37,778 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (MSC service thread 1-12) BAM_00001 - Business indicator created. kpi_30301353506280659, Expected pipeline.
+09:22:37,780 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (MSC service thread 1-12) BAM_00001 - Business indicator created. kpi_30361353506582145, By status.
+09:22:37,783 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (MSC service thread 1-12) BAM_00001 - Business indicator created. kpi_30651353683614640, By sales person.
+09:22:37,785 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (MSC service thread 1-12) BAM_00001 - Business indicator created. kpi_30331353506453066, By sales person.
+09:22:37,787 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (MSC service thread 1-12) BAM_00001 - Business indicator created. kpi_30831353686700387, By product.
+09:22:37,789 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (MSC service thread 1-12) BAM_00001 - Business indicator created. kpi_30391353506887646, By product.
+09:22:37,791 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (MSC service thread 1-12) BAM_00001 - Business indicator created. kpi_30801353685378049, By customer.
+09:22:37,793 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (MSC service thread 1-12) BAM_00001 - Business indicator created. kpi_30281353675541472, By country.
+09:22:37,795 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (MSC service thread 1-12) BAM_00001 - Business indicator created. kpi_21591363786594721, Amount by status.
+09:22:37,797 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (MSC service thread 1-12) BAM_00001 - Business indicator created. kpi_30861353687605533, Amount by probability (%).
+09:22:37,800 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (MSC service thread 1-12) BAM_00001 - Business indicator created. kpi_30771353684719633, - New indicator -.
+09:22:37,802 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (MSC service thread 1-12) BAM_00001 - Business indicator created. kpi_64061223773274641, Expense reports table.
+09:22:37,804 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (MSC service thread 1-12) BAM_00001 - Business indicator created. kpi_63931223772633377, Expenses by department USD.
+09:22:37,806 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (MSC service thread 1-12) BAM_00001 - Business indicator created. kpi_63901223772516707, Expenses by office USD.
+09:22:37,808 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (MSC service thread 1-12) BAM_00001 - Business indicator created. kpi_30461354643057084, Expenses by user.
+09:22:37,811 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (MSC service thread 1-12) BAM_00001 - Business indicator created. kpi_30441353507392054, Opportunities by closing date (USD).
+09:22:37,813 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (MSC service thread 1-12) BAM_00001 - Business indicator created. kpi_30101353505177974, Opportunities by country.
+09:22:37,815 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (MSC service thread 1-12) BAM_00001 - Business indicator created. kpi_30041353504912610, Opportunities by employee.
+09:22:37,818 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (MSC service thread 1-12) BAM_00001 - Business indicator created. kpi_30011353503663716, Opportunities by status.
+09:22:37,820 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (MSC service thread 1-12) BAM_00001 - Business indicator created. kpi_30251353675275870, Pipeline status.
+09:22:37,822 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (MSC service thread 1-12) BAM_00001 - Business indicator created. kpi_30621353683547916, Sales evolution.
+09:22:37,824 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (MSC service thread 1-12) BAM_00001 - Business indicator created. kpi_29761353668431694, Sales report table.
+09:22:39,720 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (MSC service thread 1-12) Parsing KPI's XML file: WEB-INF/etc/appdata/initialData/jbpmKPIs.xml
+09:22:39,946 INFO  [org.jboss.dashboard.profiler.memory.MemoryProfiler] (MSC service thread 1-12) Freed 12.057 Mb bytes. Total = 352.125 Mb. Free = 293.56 Mb (83.3681%)
+09:22:39,952 ERROR [org.jboss.dashboard.dataset.sql.SQLDataSet] (MSC service thread 1-12) Error in load() SQLDataset. SQL = select total.processname, ifnull(total.instances,0) total, ifnull(active.instances_act,0) active, ifnull(completed.instances_compl,0) completed, ifnull(pending.instances_pend,0) pending, ifnull(suspended.instances_susp,0) suspended, ifnull(aborted.instances_abrt,0) aborted
+                from
+                (select pi.processinstanceid as pId, pi.processname as processname, count(*) as instances
+                from processinstancelog pi group by pi.processinstanceid,processname) as total
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_act
+                from processinstancelog pi
+                where pi.status=1 group by pi.processinstanceid) as active
+                on (total.pId=active.pId)
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_compl
+                from processinstancelog pi
+                where pi.status=2 group by pi.processinstanceid) as completed
+                on (total.pId=completed.pId)
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_pend
+                from processinstancelog pi
+                where pi.status=0 group by pi.processinstanceid) as pending
+                on (total.pId=pending.pId)
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_susp
+                from processinstancelog pi
+                where pi.status=4 group by pi.processinstanceid) as suspended
+                on (total.pId=suspended.pId)
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_abrt
+                from processinstancelog pi
+                where pi.status=3 group by pi.processinstanceid) as aborted
+                on (total.pId=aborted.pId)
+                where 1 = 1
+                order by processname: org.h2.jdbc.JdbcSQLException: Table "PROCESSINSTANCELOG" not found; SQL statement:
+select total.processname, ifnull(total.instances,0) total, ifnull(active.instances_act,0) active, ifnull(completed.instances_compl,0) completed, ifnull(pending.instances_pend,0) pending, ifnull(suspended.instances_susp,0) suspended, ifnull(aborted.instances_abrt,0) aborted
+                from
+                (select pi.processinstanceid as pId, pi.processname as processname, count(*) as instances
+                from processinstancelog pi group by pi.processinstanceid,processname) as total
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_act
+                from processinstancelog pi
+                where pi.status=1 group by pi.processinstanceid) as active
+                on (total.pId=active.pId)
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_compl
+                from processinstancelog pi
+                where pi.status=2 group by pi.processinstanceid) as completed
+                on (total.pId=completed.pId)
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_pend
+                from processinstancelog pi
+                where pi.status=0 group by pi.processinstanceid) as pending
+                on (total.pId=pending.pId)
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_susp
+                from processinstancelog pi
+                where pi.status=4 group by pi.processinstanceid) as suspended
+                on (total.pId=suspended.pId)
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_abrt
+                from processinstancelog pi
+                where pi.status=3 group by pi.processinstanceid) as aborted
+                on (total.pId=aborted.pId)
+                where 1 = 1
+                order by processname [42102-161]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.Parser.readTableOrView(Parser.java:4749)
+	at org.h2.command.Parser.readTableFilter(Parser.java:1075)
+	at org.h2.command.Parser.parseSelectSimpleFromPart(Parser.java:1681)
+	at org.h2.command.Parser.parseSelectSimple(Parser.java:1788)
+	at org.h2.command.Parser.parseSelectSub(Parser.java:1675)
+	at org.h2.command.Parser.parseSelectUnion(Parser.java:1518)
+	at org.h2.command.Parser.readTableFilter(Parser.java:1017)
+	at org.h2.command.Parser.parseSelectSimpleFromPart(Parser.java:1681)
+	at org.h2.command.Parser.parseSelectSimple(Parser.java:1788)
+	at org.h2.command.Parser.parseSelectSub(Parser.java:1675)
+	at org.h2.command.Parser.parseSelectUnion(Parser.java:1518)
+	at org.h2.command.Parser.parseSelect(Parser.java:1506)
+	at org.h2.command.Parser.parsePrepared(Parser.java:405)
+	at org.h2.command.Parser.parse(Parser.java:279)
+	at org.h2.command.Parser.parse(Parser.java:251)
+	at org.h2.command.Parser.prepareCommand(Parser.java:217)
+	at org.h2.engine.Session.prepareLocal(Session.java:415)
+	at org.h2.engine.Session.prepareCommand(Session.java:364)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1119)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:71)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:635)
+	at org.jboss.jca.adapters.jdbc.BaseWrapperManagedConnection.doPrepareStatement(BaseWrapperManagedConnection.java:677) [ironjacamar-jdbc-1.0.9.Final.jar:1.0.9.Final]
+	at org.jboss.jca.adapters.jdbc.BaseWrapperManagedConnection.prepareStatement(BaseWrapperManagedConnection.java:663) [ironjacamar-jdbc-1.0.9.Final.jar:1.0.9.Final]
+	at org.jboss.jca.adapters.jdbc.WrappedConnection.prepareStatement(WrappedConnection.java:404) [ironjacamar-jdbc-1.0.9.Final.jar:1.0.9.Final]
+	at org.jboss.dashboard.dataset.sql.SQLStatement.getPreparedStatement(SQLStatement.java:132) [dashboard-provider-sql-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.dataset.sql.SQLDataSet.load(SQLDataSet.java:106) [dashboard-provider-sql-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.provider.sql.SQLDataLoader.load(SQLDataLoader.java:105) [dashboard-provider-sql-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.dataset.DataSetManagerImpl.loadDataSet(DataSetManagerImpl.java:111) [dashboard-provider-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.dataset.DataSetManagerImpl.getDataSetHolder(DataSetManagerImpl.java:85) [dashboard-provider-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.dataset.DataSetManagerImpl.getDataSet(DataSetManagerImpl.java:49) [dashboard-provider-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.dataset.DataSetManagerGlobal$Proxy$_$$_WeldClientProxy.getDataSet(DataSetManagerGlobal$Proxy$_$$_WeldClientProxy.java) [dashboard-provider-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.provider.DataProviderImpl.getDataSet(DataProviderImpl.java:223) [dashboard-provider-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.provider.DataProviderImpl.serializeDataProperties(DataProviderImpl.java:255) [dashboard-provider-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.provider.DataProviderImpl.serializeDataLoader(DataProviderImpl.java:245) [dashboard-provider-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.provider.DataProviderImpl.setDataLoader(DataProviderImpl.java:182) [dashboard-provider-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.export.ImportManagerImpl.parseProviders(ImportManagerImpl.java:282) [dashboard-displayer-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.export.ImportManagerImpl.parse(ImportManagerImpl.java:183) [dashboard-displayer-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.export.ImportManagerImpl.parse(ImportManagerImpl.java:173) [dashboard-displayer-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.export.ImportManagerImpl.parse(ImportManagerImpl.java:149) [dashboard-displayer-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.export.ImportManagerImpl$Proxy$_$$_WeldClientProxy.parse(ImportManagerImpl$Proxy$_$$_WeldClientProxy.java) [dashboard-displayer-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.kpi.KPIInitialModule.installOrUpgrade(KPIInitialModule.java:80) [dashboard-displayer-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.kpi.KPIInitialModule.install(KPIInitialModule.java:55) [dashboard-displayer-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.factory.InitialModule$1.txFragment(InitialModule.java:61) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.database.hibernate.HibernateTransaction.executeFragment(HibernateTransaction.java:254) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.database.hibernate.HibernateTxFragment.executeChild(HibernateTxFragment.java:194) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.database.hibernate.HibernateTxFragment.execute(HibernateTxFragment.java:168) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.factory.InitialModule.doTheInstall(InitialModule.java:59) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.factory.InitialModulesManager$1.txFragment(InitialModulesManager.java:73) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.database.hibernate.HibernateTransaction.executeFragment(HibernateTransaction.java:254) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.database.hibernate.HibernateTxFragment.executeInitiator(HibernateTxFragment.java:179) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.database.hibernate.HibernateTxFragment.execute(HibernateTxFragment.java:167) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.factory.InitialModulesManager.start(InitialModulesManager.java:67) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.factory.InitialModulesManager$Proxy$_$$_WeldClientProxy.start(InitialModulesManager$Proxy$_$$_WeldClientProxy.java) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.annotation.StartableProcessor.wakeUpStartableBeans(StartableProcessor.java:48) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.Application.start(Application.java:107) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.Application$Proxy$_$$_WeldClientProxy.start(Application$Proxy$_$$_WeldClientProxy.java) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.ui.controller.ControllerServlet$1.doWork(ControllerServlet.java:73) [dashboard-ui-core-6.0.1.Final.jar:]
+	at org.jboss.dashboard.factory.Factory.runWork(Factory.java:295) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.factory.Factory.doWork(Factory.java:321) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.ui.controller.ControllerServlet.init(ControllerServlet.java:70) [dashboard-ui-core-6.0.1.Final.jar:]
+	at javax.servlet.GenericServlet.init(GenericServlet.java:242) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1202) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1102) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:3655) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:3873) [jbossweb-7.0.13.Final.jar:]
+	at org.jboss.as.web.deployment.WebDeploymentService.start(WebDeploymentService.java:90) [jboss-as-web-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_25]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_25]
+	at java.lang.Thread.run(Thread.java:724) [rt.jar:1.7.0_25]
+
+09:22:40,114 ERROR [org.jboss.dashboard.provider.DataProviderImpl] (MSC service thread 1-12) Error serializing data provider: null: org.h2.jdbc.JdbcSQLException: Table "PROCESSINSTANCELOG" not found; SQL statement:
+select total.processname, ifnull(total.instances,0) total, ifnull(active.instances_act,0) active, ifnull(completed.instances_compl,0) completed, ifnull(pending.instances_pend,0) pending, ifnull(suspended.instances_susp,0) suspended, ifnull(aborted.instances_abrt,0) aborted
+                from
+                (select pi.processinstanceid as pId, pi.processname as processname, count(*) as instances
+                from processinstancelog pi group by pi.processinstanceid,processname) as total
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_act
+                from processinstancelog pi
+                where pi.status=1 group by pi.processinstanceid) as active
+                on (total.pId=active.pId)
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_compl
+                from processinstancelog pi
+                where pi.status=2 group by pi.processinstanceid) as completed
+                on (total.pId=completed.pId)
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_pend
+                from processinstancelog pi
+                where pi.status=0 group by pi.processinstanceid) as pending
+                on (total.pId=pending.pId)
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_susp
+                from processinstancelog pi
+                where pi.status=4 group by pi.processinstanceid) as suspended
+                on (total.pId=suspended.pId)
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_abrt
+                from processinstancelog pi
+                where pi.status=3 group by pi.processinstanceid) as aborted
+                on (total.pId=aborted.pId)
+                where 1 = 1
+                order by processname [42102-161]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.Parser.readTableOrView(Parser.java:4749)
+	at org.h2.command.Parser.readTableFilter(Parser.java:1075)
+	at org.h2.command.Parser.parseSelectSimpleFromPart(Parser.java:1681)
+	at org.h2.command.Parser.parseSelectSimple(Parser.java:1788)
+	at org.h2.command.Parser.parseSelectSub(Parser.java:1675)
+	at org.h2.command.Parser.parseSelectUnion(Parser.java:1518)
+	at org.h2.command.Parser.readTableFilter(Parser.java:1017)
+	at org.h2.command.Parser.parseSelectSimpleFromPart(Parser.java:1681)
+	at org.h2.command.Parser.parseSelectSimple(Parser.java:1788)
+	at org.h2.command.Parser.parseSelectSub(Parser.java:1675)
+	at org.h2.command.Parser.parseSelectUnion(Parser.java:1518)
+	at org.h2.command.Parser.parseSelect(Parser.java:1506)
+	at org.h2.command.Parser.parsePrepared(Parser.java:405)
+	at org.h2.command.Parser.parse(Parser.java:279)
+	at org.h2.command.Parser.parse(Parser.java:251)
+	at org.h2.command.Parser.prepareCommand(Parser.java:217)
+	at org.h2.engine.Session.prepareLocal(Session.java:415)
+	at org.h2.engine.Session.prepareCommand(Session.java:364)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1119)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:71)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:635)
+	at org.jboss.jca.adapters.jdbc.BaseWrapperManagedConnection.doPrepareStatement(BaseWrapperManagedConnection.java:677) [ironjacamar-jdbc-1.0.9.Final.jar:1.0.9.Final]
+	at org.jboss.jca.adapters.jdbc.BaseWrapperManagedConnection.prepareStatement(BaseWrapperManagedConnection.java:663) [ironjacamar-jdbc-1.0.9.Final.jar:1.0.9.Final]
+	at org.jboss.jca.adapters.jdbc.WrappedConnection.prepareStatement(WrappedConnection.java:404) [ironjacamar-jdbc-1.0.9.Final.jar:1.0.9.Final]
+	at org.jboss.dashboard.dataset.sql.SQLStatement.getPreparedStatement(SQLStatement.java:132) [dashboard-provider-sql-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.dataset.sql.SQLDataSet.load(SQLDataSet.java:106) [dashboard-provider-sql-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.provider.sql.SQLDataLoader.load(SQLDataLoader.java:105) [dashboard-provider-sql-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.dataset.DataSetManagerImpl.loadDataSet(DataSetManagerImpl.java:111) [dashboard-provider-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.dataset.DataSetManagerImpl.getDataSetHolder(DataSetManagerImpl.java:85) [dashboard-provider-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.dataset.DataSetManagerImpl.getDataSet(DataSetManagerImpl.java:49) [dashboard-provider-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.dataset.DataSetManagerGlobal$Proxy$_$$_WeldClientProxy.getDataSet(DataSetManagerGlobal$Proxy$_$$_WeldClientProxy.java) [dashboard-provider-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.provider.DataProviderImpl.getDataSet(DataProviderImpl.java:223) [dashboard-provider-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.provider.DataProviderImpl.serializeDataProperties(DataProviderImpl.java:255) [dashboard-provider-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.provider.DataProviderImpl.serializeDataLoader(DataProviderImpl.java:245) [dashboard-provider-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.provider.DataProviderImpl.setDataLoader(DataProviderImpl.java:182) [dashboard-provider-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.export.ImportManagerImpl.parseProviders(ImportManagerImpl.java:282) [dashboard-displayer-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.export.ImportManagerImpl.parse(ImportManagerImpl.java:183) [dashboard-displayer-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.export.ImportManagerImpl.parse(ImportManagerImpl.java:173) [dashboard-displayer-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.export.ImportManagerImpl.parse(ImportManagerImpl.java:149) [dashboard-displayer-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.export.ImportManagerImpl$Proxy$_$$_WeldClientProxy.parse(ImportManagerImpl$Proxy$_$$_WeldClientProxy.java) [dashboard-displayer-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.kpi.KPIInitialModule.installOrUpgrade(KPIInitialModule.java:80) [dashboard-displayer-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.kpi.KPIInitialModule.install(KPIInitialModule.java:55) [dashboard-displayer-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.factory.InitialModule$1.txFragment(InitialModule.java:61) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.database.hibernate.HibernateTransaction.executeFragment(HibernateTransaction.java:254) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.database.hibernate.HibernateTxFragment.executeChild(HibernateTxFragment.java:194) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.database.hibernate.HibernateTxFragment.execute(HibernateTxFragment.java:168) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.factory.InitialModule.doTheInstall(InitialModule.java:59) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.factory.InitialModulesManager$1.txFragment(InitialModulesManager.java:73) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.database.hibernate.HibernateTransaction.executeFragment(HibernateTransaction.java:254) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.database.hibernate.HibernateTxFragment.executeInitiator(HibernateTxFragment.java:179) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.database.hibernate.HibernateTxFragment.execute(HibernateTxFragment.java:167) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.factory.InitialModulesManager.start(InitialModulesManager.java:67) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.factory.InitialModulesManager$Proxy$_$$_WeldClientProxy.start(InitialModulesManager$Proxy$_$$_WeldClientProxy.java) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.annotation.StartableProcessor.wakeUpStartableBeans(StartableProcessor.java:48) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.Application.start(Application.java:107) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.Application$Proxy$_$$_WeldClientProxy.start(Application$Proxy$_$$_WeldClientProxy.java) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.ui.controller.ControllerServlet$1.doWork(ControllerServlet.java:73) [dashboard-ui-core-6.0.1.Final.jar:]
+	at org.jboss.dashboard.factory.Factory.runWork(Factory.java:295) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.factory.Factory.doWork(Factory.java:321) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.ui.controller.ControllerServlet.init(ControllerServlet.java:70) [dashboard-ui-core-6.0.1.Final.jar:]
+	at javax.servlet.GenericServlet.init(GenericServlet.java:242) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1202) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1102) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:3655) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:3873) [jbossweb-7.0.13.Final.jar:]
+	at org.jboss.as.web.deployment.WebDeploymentService.start(WebDeploymentService.java:90) [jboss-as-web-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_25]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_25]
+	at java.lang.Thread.run(Thread.java:724) [rt.jar:1.7.0_25]
+
+09:22:40,394 INFO  [org.jboss.dashboard.profiler.memory.MemoryProfiler] (MSC service thread 1-12) Freed -11089952 bytes bytes. Total = 320.188 Mb. Free = 261.17 Mb (81.56797%)
+09:22:40,397 ERROR [org.jboss.dashboard.dataset.sql.SQLDataSet] (MSC service thread 1-12) Error in load() SQLDataset. SQL = select total.processname, ifnull(total.instances,0) total, ifnull(active.instances_act,0) active, ifnull(completed.instances_compl,0) completed, ifnull(pending.instances_pend,0) pending, ifnull(suspended.instances_susp,0) suspended, ifnull(aborted.instances_abrt,0) aborted
+                from
+                (select pi.processinstanceid as pId, pi.processname as processname, count(*) as instances
+                from processinstancelog pi group by pi.processinstanceid,processname) as total
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_act
+                from processinstancelog pi
+                where pi.status=1 group by pi.processinstanceid) as active
+                on (total.pId=active.pId)
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_compl
+                from processinstancelog pi
+                where pi.status=2 group by pi.processinstanceid) as completed
+                on (total.pId=completed.pId)
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_pend
+                from processinstancelog pi
+                where pi.status=0 group by pi.processinstanceid) as pending
+                on (total.pId=pending.pId)
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_susp
+                from processinstancelog pi
+                where pi.status=4 group by pi.processinstanceid) as suspended
+                on (total.pId=suspended.pId)
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_abrt
+                from processinstancelog pi
+                where pi.status=3 group by pi.processinstanceid) as aborted
+                on (total.pId=aborted.pId)
+                where 1 = 1
+                order by processname: org.h2.jdbc.JdbcSQLException: Table "PROCESSINSTANCELOG" not found; SQL statement:
+select total.processname, ifnull(total.instances,0) total, ifnull(active.instances_act,0) active, ifnull(completed.instances_compl,0) completed, ifnull(pending.instances_pend,0) pending, ifnull(suspended.instances_susp,0) suspended, ifnull(aborted.instances_abrt,0) aborted
+                from
+                (select pi.processinstanceid as pId, pi.processname as processname, count(*) as instances
+                from processinstancelog pi group by pi.processinstanceid,processname) as total
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_act
+                from processinstancelog pi
+                where pi.status=1 group by pi.processinstanceid) as active
+                on (total.pId=active.pId)
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_compl
+                from processinstancelog pi
+                where pi.status=2 group by pi.processinstanceid) as completed
+                on (total.pId=completed.pId)
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_pend
+                from processinstancelog pi
+                where pi.status=0 group by pi.processinstanceid) as pending
+                on (total.pId=pending.pId)
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_susp
+                from processinstancelog pi
+                where pi.status=4 group by pi.processinstanceid) as suspended
+                on (total.pId=suspended.pId)
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_abrt
+                from processinstancelog pi
+                where pi.status=3 group by pi.processinstanceid) as aborted
+                on (total.pId=aborted.pId)
+                where 1 = 1
+                order by processname [42102-161]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.Parser.readTableOrView(Parser.java:4749)
+	at org.h2.command.Parser.readTableFilter(Parser.java:1075)
+	at org.h2.command.Parser.parseSelectSimpleFromPart(Parser.java:1681)
+	at org.h2.command.Parser.parseSelectSimple(Parser.java:1788)
+	at org.h2.command.Parser.parseSelectSub(Parser.java:1675)
+	at org.h2.command.Parser.parseSelectUnion(Parser.java:1518)
+	at org.h2.command.Parser.readTableFilter(Parser.java:1017)
+	at org.h2.command.Parser.parseSelectSimpleFromPart(Parser.java:1681)
+	at org.h2.command.Parser.parseSelectSimple(Parser.java:1788)
+	at org.h2.command.Parser.parseSelectSub(Parser.java:1675)
+	at org.h2.command.Parser.parseSelectUnion(Parser.java:1518)
+	at org.h2.command.Parser.parseSelect(Parser.java:1506)
+	at org.h2.command.Parser.parsePrepared(Parser.java:405)
+	at org.h2.command.Parser.parse(Parser.java:279)
+	at org.h2.command.Parser.parse(Parser.java:251)
+	at org.h2.command.Parser.prepareCommand(Parser.java:217)
+	at org.h2.engine.Session.prepareLocal(Session.java:415)
+	at org.h2.engine.Session.prepareCommand(Session.java:364)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1119)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:71)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:635)
+	at org.jboss.jca.adapters.jdbc.BaseWrapperManagedConnection.doPrepareStatement(BaseWrapperManagedConnection.java:677) [ironjacamar-jdbc-1.0.9.Final.jar:1.0.9.Final]
+	at org.jboss.jca.adapters.jdbc.BaseWrapperManagedConnection.prepareStatement(BaseWrapperManagedConnection.java:663) [ironjacamar-jdbc-1.0.9.Final.jar:1.0.9.Final]
+	at org.jboss.jca.adapters.jdbc.WrappedConnection.prepareStatement(WrappedConnection.java:404) [ironjacamar-jdbc-1.0.9.Final.jar:1.0.9.Final]
+	at org.jboss.dashboard.dataset.sql.SQLStatement.getPreparedStatement(SQLStatement.java:132) [dashboard-provider-sql-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.dataset.sql.SQLDataSet.load(SQLDataSet.java:106) [dashboard-provider-sql-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.provider.sql.SQLDataLoader.load(SQLDataLoader.java:105) [dashboard-provider-sql-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.dataset.DataSetManagerImpl.loadDataSet(DataSetManagerImpl.java:111) [dashboard-provider-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.dataset.DataSetManagerImpl.getDataSetHolder(DataSetManagerImpl.java:85) [dashboard-provider-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.dataset.DataSetManagerImpl.getDataSet(DataSetManagerImpl.java:49) [dashboard-provider-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.dataset.DataSetManagerGlobal$Proxy$_$$_WeldClientProxy.getDataSet(DataSetManagerGlobal$Proxy$_$$_WeldClientProxy.java) [dashboard-provider-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.provider.DataProviderImpl.getDataSet(DataProviderImpl.java:223) [dashboard-provider-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.export.ImportManagerImpl.parseProviders(ImportManagerImpl.java:312) [dashboard-displayer-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.export.ImportManagerImpl.parse(ImportManagerImpl.java:183) [dashboard-displayer-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.export.ImportManagerImpl.parse(ImportManagerImpl.java:173) [dashboard-displayer-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.export.ImportManagerImpl.parse(ImportManagerImpl.java:149) [dashboard-displayer-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.export.ImportManagerImpl$Proxy$_$$_WeldClientProxy.parse(ImportManagerImpl$Proxy$_$$_WeldClientProxy.java) [dashboard-displayer-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.kpi.KPIInitialModule.installOrUpgrade(KPIInitialModule.java:80) [dashboard-displayer-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.kpi.KPIInitialModule.install(KPIInitialModule.java:55) [dashboard-displayer-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.factory.InitialModule$1.txFragment(InitialModule.java:61) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.database.hibernate.HibernateTransaction.executeFragment(HibernateTransaction.java:254) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.database.hibernate.HibernateTxFragment.executeChild(HibernateTxFragment.java:194) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.database.hibernate.HibernateTxFragment.execute(HibernateTxFragment.java:168) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.factory.InitialModule.doTheInstall(InitialModule.java:59) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.factory.InitialModulesManager$1.txFragment(InitialModulesManager.java:73) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.database.hibernate.HibernateTransaction.executeFragment(HibernateTransaction.java:254) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.database.hibernate.HibernateTxFragment.executeInitiator(HibernateTxFragment.java:179) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.database.hibernate.HibernateTxFragment.execute(HibernateTxFragment.java:167) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.factory.InitialModulesManager.start(InitialModulesManager.java:67) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.factory.InitialModulesManager$Proxy$_$$_WeldClientProxy.start(InitialModulesManager$Proxy$_$$_WeldClientProxy.java) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.annotation.StartableProcessor.wakeUpStartableBeans(StartableProcessor.java:48) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.Application.start(Application.java:107) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.Application$Proxy$_$$_WeldClientProxy.start(Application$Proxy$_$$_WeldClientProxy.java) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.ui.controller.ControllerServlet$1.doWork(ControllerServlet.java:73) [dashboard-ui-core-6.0.1.Final.jar:]
+	at org.jboss.dashboard.factory.Factory.runWork(Factory.java:295) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.factory.Factory.doWork(Factory.java:321) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.ui.controller.ControllerServlet.init(ControllerServlet.java:70) [dashboard-ui-core-6.0.1.Final.jar:]
+	at javax.servlet.GenericServlet.init(GenericServlet.java:242) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1202) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1102) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:3655) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:3873) [jbossweb-7.0.13.Final.jar:]
+	at org.jboss.as.web.deployment.WebDeploymentService.start(WebDeploymentService.java:90) [jboss-as-web-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_25]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_25]
+	at java.lang.Thread.run(Thread.java:724) [rt.jar:1.7.0_25]
+
+09:22:40,548 ERROR [org.jboss.dashboard.kpi.KPIInitialModule] (MSC service thread 1-12) Error importing KPIs file (WEB-INF/etc/appdata/initialData/jbpmKPIs.xml) from initial module.: org.h2.jdbc.JdbcSQLException: Table "PROCESSINSTANCELOG" not found; SQL statement:
+select total.processname, ifnull(total.instances,0) total, ifnull(active.instances_act,0) active, ifnull(completed.instances_compl,0) completed, ifnull(pending.instances_pend,0) pending, ifnull(suspended.instances_susp,0) suspended, ifnull(aborted.instances_abrt,0) aborted
+                from
+                (select pi.processinstanceid as pId, pi.processname as processname, count(*) as instances
+                from processinstancelog pi group by pi.processinstanceid,processname) as total
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_act
+                from processinstancelog pi
+                where pi.status=1 group by pi.processinstanceid) as active
+                on (total.pId=active.pId)
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_compl
+                from processinstancelog pi
+                where pi.status=2 group by pi.processinstanceid) as completed
+                on (total.pId=completed.pId)
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_pend
+                from processinstancelog pi
+                where pi.status=0 group by pi.processinstanceid) as pending
+                on (total.pId=pending.pId)
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_susp
+                from processinstancelog pi
+                where pi.status=4 group by pi.processinstanceid) as suspended
+                on (total.pId=suspended.pId)
+                left outer join
+                (select pi.processinstanceid as pId, count(*) as instances_abrt
+                from processinstancelog pi
+                where pi.status=3 group by pi.processinstanceid) as aborted
+                on (total.pId=aborted.pId)
+                where 1 = 1
+                order by processname [42102-161]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.Parser.readTableOrView(Parser.java:4749)
+	at org.h2.command.Parser.readTableFilter(Parser.java:1075)
+	at org.h2.command.Parser.parseSelectSimpleFromPart(Parser.java:1681)
+	at org.h2.command.Parser.parseSelectSimple(Parser.java:1788)
+	at org.h2.command.Parser.parseSelectSub(Parser.java:1675)
+	at org.h2.command.Parser.parseSelectUnion(Parser.java:1518)
+	at org.h2.command.Parser.readTableFilter(Parser.java:1017)
+	at org.h2.command.Parser.parseSelectSimpleFromPart(Parser.java:1681)
+	at org.h2.command.Parser.parseSelectSimple(Parser.java:1788)
+	at org.h2.command.Parser.parseSelectSub(Parser.java:1675)
+	at org.h2.command.Parser.parseSelectUnion(Parser.java:1518)
+	at org.h2.command.Parser.parseSelect(Parser.java:1506)
+	at org.h2.command.Parser.parsePrepared(Parser.java:405)
+	at org.h2.command.Parser.parse(Parser.java:279)
+	at org.h2.command.Parser.parse(Parser.java:251)
+	at org.h2.command.Parser.prepareCommand(Parser.java:217)
+	at org.h2.engine.Session.prepareLocal(Session.java:415)
+	at org.h2.engine.Session.prepareCommand(Session.java:364)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1119)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:71)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:635)
+	at org.jboss.jca.adapters.jdbc.BaseWrapperManagedConnection.doPrepareStatement(BaseWrapperManagedConnection.java:677) [ironjacamar-jdbc-1.0.9.Final.jar:1.0.9.Final]
+	at org.jboss.jca.adapters.jdbc.BaseWrapperManagedConnection.prepareStatement(BaseWrapperManagedConnection.java:663) [ironjacamar-jdbc-1.0.9.Final.jar:1.0.9.Final]
+	at org.jboss.jca.adapters.jdbc.WrappedConnection.prepareStatement(WrappedConnection.java:404) [ironjacamar-jdbc-1.0.9.Final.jar:1.0.9.Final]
+	at org.jboss.dashboard.dataset.sql.SQLStatement.getPreparedStatement(SQLStatement.java:132) [dashboard-provider-sql-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.dataset.sql.SQLDataSet.load(SQLDataSet.java:106) [dashboard-provider-sql-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.provider.sql.SQLDataLoader.load(SQLDataLoader.java:105) [dashboard-provider-sql-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.dataset.DataSetManagerImpl.loadDataSet(DataSetManagerImpl.java:111) [dashboard-provider-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.dataset.DataSetManagerImpl.getDataSetHolder(DataSetManagerImpl.java:85) [dashboard-provider-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.dataset.DataSetManagerImpl.getDataSet(DataSetManagerImpl.java:49) [dashboard-provider-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.dataset.DataSetManagerGlobal$Proxy$_$$_WeldClientProxy.getDataSet(DataSetManagerGlobal$Proxy$_$$_WeldClientProxy.java) [dashboard-provider-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.provider.DataProviderImpl.getDataSet(DataProviderImpl.java:223) [dashboard-provider-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.export.ImportManagerImpl.parseProviders(ImportManagerImpl.java:312) [dashboard-displayer-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.export.ImportManagerImpl.parse(ImportManagerImpl.java:183) [dashboard-displayer-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.export.ImportManagerImpl.parse(ImportManagerImpl.java:173) [dashboard-displayer-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.export.ImportManagerImpl.parse(ImportManagerImpl.java:149) [dashboard-displayer-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.export.ImportManagerImpl$Proxy$_$$_WeldClientProxy.parse(ImportManagerImpl$Proxy$_$$_WeldClientProxy.java) [dashboard-displayer-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.kpi.KPIInitialModule.installOrUpgrade(KPIInitialModule.java:80) [dashboard-displayer-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.kpi.KPIInitialModule.install(KPIInitialModule.java:55) [dashboard-displayer-core-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.factory.InitialModule$1.txFragment(InitialModule.java:61) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.database.hibernate.HibernateTransaction.executeFragment(HibernateTransaction.java:254) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.database.hibernate.HibernateTxFragment.executeChild(HibernateTxFragment.java:194) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.database.hibernate.HibernateTxFragment.execute(HibernateTxFragment.java:168) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.factory.InitialModule.doTheInstall(InitialModule.java:59) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.factory.InitialModulesManager$1.txFragment(InitialModulesManager.java:73) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.database.hibernate.HibernateTransaction.executeFragment(HibernateTransaction.java:254) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.database.hibernate.HibernateTxFragment.executeInitiator(HibernateTxFragment.java:179) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.database.hibernate.HibernateTxFragment.execute(HibernateTxFragment.java:167) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.factory.InitialModulesManager.start(InitialModulesManager.java:67) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.factory.InitialModulesManager$Proxy$_$$_WeldClientProxy.start(InitialModulesManager$Proxy$_$$_WeldClientProxy.java) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.annotation.StartableProcessor.wakeUpStartableBeans(StartableProcessor.java:48) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.Application.start(Application.java:107) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.Application$Proxy$_$$_WeldClientProxy.start(Application$Proxy$_$$_WeldClientProxy.java) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.ui.controller.ControllerServlet$1.doWork(ControllerServlet.java:73) [dashboard-ui-core-6.0.1.Final.jar:]
+	at org.jboss.dashboard.factory.Factory.runWork(Factory.java:295) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.factory.Factory.doWork(Factory.java:321) [dashboard-commons-6.0.1.Final.jar:6.0.1.Final]
+	at org.jboss.dashboard.ui.controller.ControllerServlet.init(ControllerServlet.java:70) [dashboard-ui-core-6.0.1.Final.jar:]
+	at javax.servlet.GenericServlet.init(GenericServlet.java:242) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1202) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1102) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:3655) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:3873) [jbossweb-7.0.13.Final.jar:]
+	at org.jboss.as.web.deployment.WebDeploymentService.start(WebDeploymentService.java:90) [jboss-as-web-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_25]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_25]
+	at java.lang.Thread.run(Thread.java:724) [rt.jar:1.7.0_25]
+
+09:22:40,667 WARN  [org.jboss.dashboard.factory.InitialModulesManager] (MSC service thread 1-12) Error installing module org.jboss.dashboard.jbpm.jbpmKPIs version 1
+09:22:41,664 INFO  [org.jboss.web] (MSC service thread 1-12) JBAS018210: Registering web context: /dashbuilder
+09:22:51,689 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) Class Path entry avalon-framework-4.2.0.jar in "/C:/betsy_master/server/jbpm/content/jbpm-console.war/WEB-INF/lib/fop-0.95.jar"  does not point to a valid jar for a Class-Path reference.
+09:22:51,693 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) Class Path entry batik-all-1.7.jar in "/C:/betsy_master/server/jbpm/content/jbpm-console.war/WEB-INF/lib/fop-0.95.jar"  does not point to a valid jar for a Class-Path reference.
+09:22:51,695 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) Class Path entry commons-io-1.3.1.jar in "/C:/betsy_master/server/jbpm/content/jbpm-console.war/WEB-INF/lib/fop-0.95.jar"  does not point to a valid jar for a Class-Path reference.
+09:22:51,699 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) Class Path entry commons-logging-1.0.4.jar in "/C:/betsy_master/server/jbpm/content/jbpm-console.war/WEB-INF/lib/fop-0.95.jar"  does not point to a valid jar for a Class-Path reference.
+09:22:51,701 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) Class Path entry serializer-2.7.0.jar in "/C:/betsy_master/server/jbpm/content/jbpm-console.war/WEB-INF/lib/fop-0.95.jar"  does not point to a valid jar for a Class-Path reference.
+09:22:51,704 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) Class Path entry servlet-2.2.jar in "/C:/betsy_master/server/jbpm/content/jbpm-console.war/WEB-INF/lib/fop-0.95.jar"  does not point to a valid jar for a Class-Path reference.
+09:22:51,707 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) Class Path entry xalan-2.7.0.jar in "/C:/betsy_master/server/jbpm/content/jbpm-console.war/WEB-INF/lib/fop-0.95.jar"  does not point to a valid jar for a Class-Path reference.
+09:22:51,710 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) Class Path entry xercesImpl-2.7.1.jar in "/C:/betsy_master/server/jbpm/content/jbpm-console.war/WEB-INF/lib/fop-0.95.jar"  does not point to a valid jar for a Class-Path reference.
+09:22:51,713 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) Class Path entry xml-apis-1.3.04.jar in "/C:/betsy_master/server/jbpm/content/jbpm-console.war/WEB-INF/lib/fop-0.95.jar"  does not point to a valid jar for a Class-Path reference.
+09:22:51,716 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) Class Path entry xml-apis-ext-1.3.04.jar in "/C:/betsy_master/server/jbpm/content/jbpm-console.war/WEB-INF/lib/fop-0.95.jar"  does not point to a valid jar for a Class-Path reference.
+09:22:51,719 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) Class Path entry xmlgraphics-commons-1.3.1.jar in "/C:/betsy_master/server/jbpm/content/jbpm-console.war/WEB-INF/lib/fop-0.95.jar"  does not point to a valid jar for a Class-Path reference.
+09:22:51,722 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) Class Path entry fop-hyph.jar in "/C:/betsy_master/server/jbpm/content/jbpm-console.war/WEB-INF/lib/fop-0.95.jar"  does not point to a valid jar for a Class-Path reference.
+09:22:51,725 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) Class Path entry jai_codec.jar in "/C:/betsy_master/server/jbpm/content/jbpm-console.war/WEB-INF/lib/fop-0.95.jar"  does not point to a valid jar for a Class-Path reference.
+09:22:51,728 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) Class Path entry jai_core.jar in "/C:/betsy_master/server/jbpm/content/jbpm-console.war/WEB-INF/lib/fop-0.95.jar"  does not point to a valid jar for a Class-Path reference.
+09:22:51,730 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) Class Path entry jai_imageio.jar in "/C:/betsy_master/server/jbpm/content/jbpm-console.war/WEB-INF/lib/fop-0.95.jar"  does not point to a valid jar for a Class-Path reference.
+09:22:51,733 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) Class Path entry jimi-1.0.jar in "/C:/betsy_master/server/jbpm/content/jbpm-console.war/WEB-INF/lib/fop-0.95.jar"  does not point to a valid jar for a Class-Path reference.
+09:22:51,736 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) Class Path entry xmlunit1.0.jar in "/C:/betsy_master/server/jbpm/content/jbpm-console.war/WEB-INF/lib/fop-0.95.jar"  does not point to a valid jar for a Class-Path reference.
+09:22:51,740 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) Class Path entry jaxb-api.jar in "/C:/betsy_master/server/jbpm/content/jbpm-console.war/WEB-INF/lib/jaxb-impl-2.2.5.jar"  does not point to a valid jar for a Class-Path reference.
+09:22:51,744 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) Class Path entry activation.jar in "/C:/betsy_master/server/jbpm/content/jbpm-console.war/WEB-INF/lib/jaxb-impl-2.2.5.jar"  does not point to a valid jar for a Class-Path reference.
+09:22:51,746 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) Class Path entry jsr173_1.0_api.jar in "/C:/betsy_master/server/jbpm/content/jbpm-console.war/WEB-INF/lib/jaxb-impl-2.2.5.jar"  does not point to a valid jar for a Class-Path reference.
+09:22:51,749 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) Class Path entry jaxb1-impl.jar in "/C:/betsy_master/server/jbpm/content/jbpm-console.war/WEB-INF/lib/jaxb-impl-2.2.5.jar"  does not point to a valid jar for a Class-Path reference.
+09:22:51,752 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) Class Path entry jaxb-api.jar in "/C:/betsy_master/server/jbpm/content/jbpm-console.war/WEB-INF/lib/jaxb-xjc-2.2.5.jar"  does not point to a valid jar for a Class-Path reference.
+09:22:51,755 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) Class Path entry jaxb-impl.jar in "/C:/betsy_master/server/jbpm/content/jbpm-console.war/WEB-INF/lib/jaxb-xjc-2.2.5.jar"  does not point to a valid jar for a Class-Path reference.
+09:22:51,758 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) Class Path entry jsr173_1.0_api.jar in "/C:/betsy_master/server/jbpm/content/jbpm-console.war/WEB-INF/lib/jaxb-xjc-2.2.5.jar"  does not point to a valid jar for a Class-Path reference.
+09:22:51,761 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) Class Path entry activation.jar in "/C:/betsy_master/server/jbpm/content/jbpm-console.war/WEB-INF/lib/jaxb-xjc-2.2.5.jar"  does not point to a valid jar for a Class-Path reference.
+09:22:51,766 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) Class Path entry xml-apis-1.0.b2.jar in "/C:/betsy_master/server/jbpm/content/jbpm-console.war/WEB-INF/lib/jbpmmigration-0.11.jar"  does not point to a valid jar for a Class-Path reference.
+09:22:51,769 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) Class Path entry log4j-1.2.16.jar in "/C:/betsy_master/server/jbpm/content/jbpm-console.war/WEB-INF/lib/jbpmmigration-0.11.jar"  does not point to a valid jar for a Class-Path reference.
+09:22:51,776 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) Class Path entry xml-apis.jar in "/C:/betsy_master/server/jbpm/content/jbpm-console.war/WEB-INF/lib/serializer-2.7.1.jar"  does not point to a valid jar for a Class-Path reference.
+09:22:51,781 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) Class Path entry xercesImpl.jar in "/C:/betsy_master/server/jbpm/content/jbpm-console.war/WEB-INF/lib/xalan-2.7.1.jar"  does not point to a valid jar for a Class-Path reference.
+09:22:51,784 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) Class Path entry xml-apis.jar in "/C:/betsy_master/server/jbpm/content/jbpm-console.war/WEB-INF/lib/xalan-2.7.1.jar"  does not point to a valid jar for a Class-Path reference.
+09:22:51,787 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) Class Path entry serializer.jar in "/C:/betsy_master/server/jbpm/content/jbpm-console.war/WEB-INF/lib/xalan-2.7.1.jar"  does not point to a valid jar for a Class-Path reference.
+09:22:51,875 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) JBAS015893: Encountered invalid class name 'org.springframework.context.ApplicationContext,org.springframework.beans.BeansException,org.springframework.beans.factory.xml.NamespaceHandlerResolver' for service type 'org.apache.cxf.bus.factory'
+09:22:51,881 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) JBAS015893: Encountered invalid class name 'org.xmlpull.mxp1.MXParser,org.xmlpull.mxp1_serializer.MXSerializer' for service type 'org.xmlpull.v1.XmlPullParserFactory'
+09:22:51,885 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-16) JBAS015893: Encountered invalid class name 'org.xmlpull.mxp1.MXParser,org.xmlpull.mxp1_serializer.MXSerializer' for service type 'org.xmlpull.v1.XmlPullParserFactory'
+09:22:51,950 INFO  [org.jboss.as.jpa] (MSC service thread 1-16) JBAS011401: Read persistence.xml for org.jbpm.domain
+09:22:52,103 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) JBAS018567: Deployment "deployment.jbpm-console.war" is using a private module ("org.jboss.netty:main") which may be changed or removed in future versions without notice.
+09:22:52,106 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) JBAS018567: Deployment "deployment.jbpm-console.war" is using a private module ("org.jboss.netty:main") which may be changed or removed in future versions without notice.
+09:22:52,188 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) JBAS016002: Processing weld deployment jbpm-console.war
+09:22:52,229 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named RetryTrackerSingleton in deployment unit deployment "jbpm-console.war" are as follows:
+
+	java:global/jbpm-console/RetryTrackerSingleton!org.kie.services.remote.jms.RetryTrackerSingleton
+	java:app/jbpm-console/RetryTrackerSingleton!org.kie.services.remote.jms.RetryTrackerSingleton
+	java:module/RetryTrackerSingleton!org.kie.services.remote.jms.RetryTrackerSingleton
+	java:global/jbpm-console/RetryTrackerSingleton
+	java:app/jbpm-console/RetryTrackerSingleton
+	java:module/RetryTrackerSingleton
+
+09:22:52,330 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-16) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+09:22:52,332 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-16) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+09:22:52,334 WARN  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-16) JBAS010402: Unable to instantiate driver class "org.h2.Driver": org.jboss.msc.service.DuplicateServiceException: Service jboss.jdbc-driver.jbpm-console_warorg_h2_Driver_1_3 is already registered
+09:22:52,338 INFO  [org.jboss.weld.deployer] (MSC service thread 1-16) JBAS016005: Starting Services for CDI deployment: jbpm-console.war
+09:22:52,347 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-15) trying to deploy queue jms.queue.KIE.AUDIT
+09:22:52,352 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) JBAS011402: Starting Persistence Unit Service 'jbpm-console.war#org.jbpm.domain'
+09:22:52,357 INFO  [org.jboss.as.messaging] (MSC service thread 1-15) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/queue/KIE.AUDIT
+09:22:52,360 INFO  [org.jboss.as.messaging] (MSC service thread 1-15) JBAS011601: Bound messaging object to jndi name java:/queue/KIE.AUDIT.ALL
+09:22:52,363 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-10) trying to deploy queue jms.queue.KIE.TASK
+09:22:52,365 INFO  [org.jboss.as.messaging] (MSC service thread 1-10) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/queue/KIE.TASK
+09:22:52,368 INFO  [org.jboss.as.messaging] (MSC service thread 1-10) JBAS011601: Bound messaging object to jndi name java:/queue/KIE.TASK.ALL
+09:22:52,376 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-9) trying to deploy queue jms.queue.KIE.SESSION.#
+09:22:52,384 INFO  [org.jboss.as.messaging] (MSC service thread 1-9) JBAS011601: Bound messaging object to jndi name java:/queue/KIE.SESSION
+09:22:52,380 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) JBAS014142: Started message driven bean 'KieSessionRequesMessageBean' with 'hornetq-ra' resource adapter
+09:22:52,388 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-2) trying to deploy queue jms.queue.KIE.RESPONSE.#
+09:22:52,392 INFO  [org.jboss.as.messaging] (MSC service thread 1-2) JBAS011601: Bound messaging object to jndi name java:/queue/KIE.RESPONSE
+09:22:52,399 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-14) trying to deploy queue jms.queue.KIE.TASK.#
+09:22:52,402 INFO  [org.jboss.as.messaging] (MSC service thread 1-14) JBAS011601: Bound messaging object to jndi name java:/queue/KIE.TASK
+09:22:52,404 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-3) trying to deploy queue jms.queue.KIE.RESPONSE
+09:22:52,405 INFO  [org.hibernate.ejb.Ejb3Configuration] (MSC service thread 1-4) HHH000204: Processing PersistenceUnitInfo [
+	name: org.jbpm.domain
+	...]
+09:22:52,410 INFO  [org.jboss.as.messaging] (MSC service thread 1-3) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/queue/KIE.RESPONSE
+09:22:52,415 INFO  [org.jboss.as.messaging] (MSC service thread 1-3) JBAS011601: Bound messaging object to jndi name java:/queue/KIE.RESPONSE.ALL
+09:22:52,418 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) JBAS014142: Started message driven bean 'TaskServiceRequesMessageBean' with 'hornetq-ra' resource adapter
+09:22:52,419 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-12) trying to deploy queue jms.queue.KIE.SESSION
+09:22:52,424 INFO  [org.jboss.as.messaging] (MSC service thread 1-12) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/queue/KIE.SESSION
+09:22:52,426 INFO  [org.jboss.as.messaging] (MSC service thread 1-12) JBAS011601: Bound messaging object to jndi name java:/queue/KIE.SESSION.ALL
+09:22:52,430 INFO  [org.jboss.as.ejb3] (MSC service thread 1-11) JBAS014142: Started message driven bean 'JMSAuditProcessor' with 'hornetq-ra' resource adapter
+09:22:53,000 INFO  [org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] (MSC service thread 1-4) HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+09:22:53,008 INFO  [org.hibernate.dialect.Dialect] (MSC service thread 1-4) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+09:22:53,010 INFO  [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] (MSC service thread 1-4) HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+09:22:53,015 INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] (MSC service thread 1-4) HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jta.CMTTransactionFactory
+09:22:53,019 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (MSC service thread 1-4) HHH000397: Using ASTQueryTranslatorFactory
+09:22:53,185 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (MSC service thread 1-4) HHH000228: Running hbm2ddl schema update
+09:22:53,187 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (MSC service thread 1-4) HHH000102: Fetching database metadata
+09:22:53,190 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (MSC service thread 1-4) HHH000396: Updating schema
+09:22:53,193 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: Attachment
+09:22:53,195 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: BAMTaskSummary
+09:22:53,197 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: BooleanExpression
+09:22:53,199 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: Content
+09:22:53,201 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: ContextMappingInfo
+09:22:53,203 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: CorrelationKeyInfo
+09:22:53,205 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: CorrelationPropertyInfo
+09:22:53,207 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: Deadline
+09:22:53,209 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: Delegation_delegates
+09:22:53,211 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: ErrorInfo
+09:22:53,213 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: Escalation
+09:22:53,215 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: EventTypes
+09:22:53,217 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: I18NText
+09:22:53,219 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: NodeInstanceLog
+09:22:53,221 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: Notification
+09:22:53,223 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: Notification_BAs
+09:22:53,225 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: Notification_Recipients
+09:22:53,226 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: Notification_email_header
+09:22:53,229 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: OrganizationalEntity
+09:22:53,231 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: PeopleAssignments_BAs
+09:22:53,233 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: PeopleAssignments_ExclOwners
+09:22:53,235 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: PeopleAssignments_PotOwners
+09:22:53,237 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: PeopleAssignments_Recipients
+09:22:53,239 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: PeopleAssignments_Stakeholders
+09:22:53,241 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: ProcessInstanceInfo
+09:22:53,243 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: ProcessInstanceLog
+09:22:53,244 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: Reassignment
+09:22:53,246 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: Reassignment_potentialOwners
+09:22:53,248 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: RequestInfo
+09:22:53,250 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: SessionInfo
+09:22:53,251 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: Task
+09:22:53,253 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: TaskDef
+09:22:53,254 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: TaskEvent
+09:22:53,256 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: VariableInstanceLog
+09:22:53,258 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: WorkItemInfo
+09:22:53,259 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: email_header
+09:22:53,261 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: task_comment
+09:22:53,262 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: Attachment
+09:22:53,264 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: BAMTaskSummary
+09:22:53,266 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: BooleanExpression
+09:22:53,267 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: Content
+09:22:53,269 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: ContextMappingInfo
+09:22:53,270 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: CorrelationKeyInfo
+09:22:53,272 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: CorrelationPropertyInfo
+09:22:53,274 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: Deadline
+09:22:53,275 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: Delegation_delegates
+09:22:53,277 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: ErrorInfo
+09:22:53,279 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: Escalation
+09:22:53,280 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: EventTypes
+09:22:53,282 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: I18NText
+09:22:53,283 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: NodeInstanceLog
+09:22:53,285 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: Notification
+09:22:53,286 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: Notification_BAs
+09:22:53,288 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: Notification_Recipients
+09:22:53,290 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: Notification_email_header
+09:22:53,291 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: OrganizationalEntity
+09:22:53,293 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: PeopleAssignments_BAs
+09:22:53,295 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: PeopleAssignments_ExclOwners
+09:22:53,297 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: PeopleAssignments_PotOwners
+09:22:53,298 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: PeopleAssignments_Recipients
+09:22:53,300 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: PeopleAssignments_Stakeholders
+09:22:53,302 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: ProcessInstanceInfo
+09:22:53,303 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: ProcessInstanceLog
+09:22:53,305 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: Reassignment
+09:22:53,307 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: Reassignment_potentialOwners
+09:22:53,309 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: RequestInfo
+09:22:53,310 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: SessionInfo
+09:22:53,312 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: Task
+09:22:53,313 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: TaskDef
+09:22:53,315 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: TaskEvent
+09:22:53,316 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: VariableInstanceLog
+09:22:53,318 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: WorkItemInfo
+09:22:53,319 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: email_header
+09:22:53,321 INFO  [java.sql.DatabaseMetaData] (MSC service thread 1-4) HHH000262: Table not found: task_comment
+09:22:53,355 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (MSC service thread 1-4) HHH000232: Schema update complete
+09:22:53,709 INFO  [org.jboss.weld.deployer] (MSC service thread 1-14) JBAS016008: Starting weld service for deployment jbpm-console.war
+09:22:53,886 INFO  [org.jboss.solder.config.xml.bootstrap.XmlConfigExtension] (MSC service thread 1-14) Solder Config XML provider starting...
+09:22:53,889 INFO  [org.jboss.solder.config.xml.bootstrap.XmlConfigExtension] (MSC service thread 1-14) Loading XmlDocumentProvider: org.jboss.solder.config.xml.bootstrap.ResourceLoaderXmlDocumentProvider
+09:22:53,909 INFO  [org.jboss.solder.config.xml.bootstrap.XmlConfigExtension] (MSC service thread 1-14) Reading XML file: vfs:/C:/betsy_master/server/jbpm/content/jbpm-console.war/WEB-INF/beans.xml
+09:22:53,916 INFO  [org.jboss.solder.config.xml.bootstrap.XmlConfigExtension] (MSC service thread 1-14) Reading XML file: vfs:/C:/betsy_master/server/jbpm/content/jbpm-console.war/WEB-INF/lib/uberfire-api-0.3.1.Final.jar/META-INF/beans.xml
+09:22:53,920 WARN  [org.jboss.solder.config.xml.model.ModelBuilder] (MSC service thread 1-14) Solder Config could not resolve XML namspace for: {}
+09:22:53,922 INFO  [org.jboss.solder.config.xml.bootstrap.XmlConfigExtension] (MSC service thread 1-14) Reading XML file: vfs:/C:/betsy_master/server/jbpm/content/jbpm-console.war/WEB-INF/lib/drools-wb-rest-defaultapprover-6.0.1.Final.jar/META-INF/beans.xml
+09:22:53,926 INFO  [org.jboss.solder.config.xml.bootstrap.XmlConfigExtension] (MSC service thread 1-14) Reading XML file: vfs:/C:/betsy_master/server/jbpm/content/jbpm-console.war/WEB-INF/lib/uberfire-security-server-0.3.1.Final.jar/META-INF/beans.xml
+09:22:53,930 WARN  [org.jboss.solder.config.xml.model.ModelBuilder] (MSC service thread 1-14) Solder Config could not resolve XML namspace for: {}
+09:22:53,932 INFO  [org.jboss.solder.config.xml.bootstrap.XmlConfigExtension] (MSC service thread 1-14) Reading XML file: vfs:/C:/betsy_master/server/jbpm/content/jbpm-console.war/WEB-INF/lib/jbpm-kie-services-6.0.1.Final.jar/META-INF/beans.xml
+09:22:53,937 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) starting errai cdi ...
+09:22:53,943 INFO  [org.jboss.solder.Version] (MSC service thread 1-14) Solder 3.2.1.Final (build id: 3.2.1.Final)
+09:22:54,117 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.drools.workbench.screens.workitems.backend.server.WorkItemsEditorServiceImpl
+09:22:54,435 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.jbpm.console.ng.bd.backend.server.DataServiceEntryPointImpl
+09:22:54,440 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.jbpm.console.ng.bd.backend.server.KieSessionEntryPointImpl
+09:22:54,457 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.jbpm.console.ng.bd.backend.server.DeploymentManagerEntryPointImpl
+09:22:54,658 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.guvnor.common.services.backend.config.ResourceConfigServiceImpl
+09:22:54,666 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.guvnor.common.services.backend.version.VersionServiceImpl
+09:22:54,675 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service class org.guvnor.common.services.backend.file.RenameServiceImpl
+09:22:54,681 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.guvnor.common.services.backend.metadata.MetadataServiceImpl
+09:22:54,686 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service class org.guvnor.common.services.backend.file.CopyServiceImpl
+09:22:54,689 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.guvnor.common.services.backend.config.AppConfigServiceImpl
+09:22:54,696 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service class org.guvnor.common.services.backend.file.DeleteServiceImpl
+09:22:54,705 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.guvnor.common.services.backend.metadata.CategoryServiceImpl
+09:22:54,715 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.guvnor.common.services.backend.rulenames.RuleNamesServiceImpl
+09:22:54,722 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.uberfire.backend.server.FileNavigatorServiceImpl
+09:22:54,730 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.uberfire.backend.server.WorkbenchServicesImpl
+09:22:54,741 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.uberfire.backend.server.VFSServicesServerImpl
+09:22:54,752 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.uberfire.backend.server.plugin.RuntimePluginsServiceServerImpl
+09:22:54,756 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.uberfire.backend.server.repositories.RepositoryServiceEditorImpl
+09:22:54,762 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.uberfire.backend.server.organizationalunit.OrganizationalUnitServiceImpl
+09:22:54,767 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.uberfire.backend.server.repositories.RepositoryServiceImpl
+09:22:54,780 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.jbpm.console.ng.es.backend.server.ExecutorServiceEntryPointImpl
+09:22:54,994 INFO  [org.jboss.errai.common.metadata.MetaDataScanner] (Thread-91) added class scanning extensions: org.jboss.errai.common.metadata.JbossVFsTypeHandler
+09:22:55,671 INFO  [org.jboss.errai.reflections.Reflections] (Thread-91) Reflections took 673 ms to scan 94 urls, producing 1076 keys and 5875 values [using 2 cores]
+09:22:55,836 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.guvnor.common.services.builder.BuildServiceImpl
+09:22:55,863 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.kie.workbench.common.screens.datamodeller.backend.server.DataModelerServiceImpl
+09:22:55,880 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.kie.workbench.common.screens.explorer.backend.server.ExplorerServiceImpl
+09:22:55,895 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.drools.workbench.screens.dsltext.backend.server.DSLTextEditorServiceImpl
+09:22:55,904 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.drools.workbench.screens.guided.dtable.backend.server.GuidedDecisionTableEditorServiceImpl
+09:22:55,914 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.drools.workbench.screens.enums.backend.server.EnumServiceImpl
+09:22:55,922 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.guvnor.inbox.backend.server.InboxServiceImpl
+09:22:55,936 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.drools.workbench.screens.guided.rule.backend.server.GuidedRuleEditorServiceImpl
+09:22:55,942 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.drools.workbench.screens.guided.rule.backend.server.EnumDropdownServiceImpl
+09:22:55,948 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.kie.workbench.common.services.backend.validation.file.FileNameValidationServiceImpl
+09:22:55,953 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.kie.workbench.common.services.backend.source.SourceServicesImpl
+09:22:55,956 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.kie.workbench.common.services.backend.security.KieWorkbenchSecurityServiceImpl
+09:22:55,961 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.kie.workbench.common.services.backend.validation.java.IdentifierValidationServiceImpl
+09:22:55,974 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.jbpm.formModeler.panels.modeler.backend.FormModelerServiceImpl
+09:22:56,040 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.drools.workbench.screens.guided.template.server.GuidedRuleTemplateEditorServiceImpl
+09:22:56,058 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.drools.workbench.screens.scorecardxls.backend.server.ScoreCardXLSServiceImpl
+09:22:56,120 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.kie.workbench.common.screens.search.backend.server.SearchServiceImpl
+09:22:56,205 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.drools.workbench.screens.drltext.backend.server.DRLTextEditorServiceImpl
+09:22:56,213 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.jbpm.formModeler.renderer.backend.service.FormRenderContextManagerImpl
+09:22:56,217 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.jbpm.formModeler.renderer.backend.service.FormRenderingServiceImpl
+09:22:56,222 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.jbpm.formModeler.renderer.backend.service.FormRendererIncluderServiceImpl
+09:22:56,232 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.jbpm.console.ng.ht.backend.server.FormModelerProcessStarterEntryPointImpl
+09:22:56,237 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.jbpm.console.ng.ht.backend.server.TypeRoleServiceEntryPointImpl
+09:22:56,244 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.jbpm.console.ng.ht.backend.server.TaskServiceEntryPointImpl
+09:22:56,250 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.jbpm.console.ng.ht.backend.server.FormServiceEntryPointImpl
+09:22:56,254 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.jbpm.console.ng.ht.backend.server.UserServiceEntryPointImpl
+09:22:56,305 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.kie.workbench.common.screens.projecteditor.backend.server.ProjectScreenServiceImpl
+09:22:56,468 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.jbpm.designer.server.service.DefaultDesignerAssetService
+09:22:56,521 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.drools.workbench.screens.globals.backend.server.GlobalsEditorServiceImpl
+09:22:56,551 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.drools.workbench.screens.guided.scorecard.backend.server.GuidedScoreCardEditorServiceImpl
+09:22:56,562 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.kie.workbench.common.screens.defaulteditor.backend.server.DefaultEditorServiceImpl
+09:22:56,573 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.guvnor.m2repo.backend.server.M2RepoServiceImpl
+09:22:56,579 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.jbpm.dashboard.renderer.service.impl.DashboardRendererServiceImpl
+09:22:56,612 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.drools.workbench.screens.testscenario.backend.server.ScenarioTestEditorServiceImpl
+09:22:56,634 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.drools.workbench.screens.dtablexls.backend.server.DecisionTableXLSServiceImpl
+09:22:56,657 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.guvnor.common.services.project.backend.server.ProjectServiceImpl
+09:22:56,661 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.guvnor.common.services.project.backend.server.KModuleServiceImpl
+09:22:56,668 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.guvnor.common.services.project.backend.server.POMServiceImpl
+09:22:56,687 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-14) discovered errai service: public@Service @ApplicationScoped class org.kie.workbench.common.services.datamodel.backend.server.IncrementalDataModelServiceImpl
+09:22:56,784 INFO  [org.drools.compiler.kie.builder.impl.ClasspathKieProject] (MSC service thread 1-14) Found kmodule: vfs:/C:/betsy_master/server/jbpm/content/jbpm-console.war/WEB-INF/lib/drools-wb-rest-defaultapprover-6.0.1.Final.jar/META-INF/kmodule.xml
+09:22:56,788 INFO  [org.drools.compiler.kie.builder.impl.ClasspathKieProject] (MSC service thread 1-14) Virtual file physical path = C:\betsy_master\server\jbpm\jboss-as-7.1.1.Final\standalone\tmp\vfs\deployment7e09ba1bff8ccc84\drools-wb-rest-defaultapprover-6.0.1.Final.jar-5c326d430405d0f7\drools-wb-rest-defaultapprover-6.0.1.Final.jar
+09:22:56,833 INFO  [org.drools.compiler.kie.builder.impl.KieRepositoryImpl] (MSC service thread 1-14) KieModule was added:ZipKieModule[ ReleaseId=org.drools:drools-wb-rest-defaultapprover:6.0.1.Finalfile=\betsy_master\server\jbpm\jboss-as-7.1.1.Final\standalone\tmp\vfs\deployment7e09ba1bff8ccc84\drools-wb-rest-defaultapprover-6.0.1.Final.jar-5c326d430405d0f7\drools-wb-rest-defaultapprover-6.0.1.Final.jar]
+09:22:56,838 INFO  [org.drools.compiler.kie.builder.impl.ClasspathKieProject] (MSC service thread 1-14) Found kmodule: vfs:/C:/betsy_master/server/jbpm/content/jbpm-console.war/WEB-INF/lib/drools-wb-rest-defaultapprover-6.0.1.Final.jar/META-INF/kmodule.xml
+09:22:56,841 INFO  [org.drools.compiler.kie.builder.impl.ClasspathKieProject] (MSC service thread 1-14) Virtual file physical path = C:\betsy_master\server\jbpm\jboss-as-7.1.1.Final\standalone\tmp\vfs\deployment7e09ba1bff8ccc84\drools-wb-rest-defaultapprover-6.0.1.Final.jar-5c326d430405d0f7\drools-wb-rest-defaultapprover-6.0.1.Final.jar
+09:22:56,848 INFO  [org.drools.compiler.kie.builder.impl.KieRepositoryImpl] (MSC service thread 1-14) KieModule was added:ZipKieModule[ ReleaseId=org.drools:drools-wb-rest-defaultapprover:6.0.1.Finalfile=\betsy_master\server\jbpm\jboss-as-7.1.1.Final\standalone\tmp\vfs\deployment7e09ba1bff8ccc84\drools-wb-rest-defaultapprover-6.0.1.Final.jar-5c326d430405d0f7\drools-wb-rest-defaultapprover-6.0.1.Final.jar]
+09:22:57,671 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-14) WELD-001440 Scope type @javax.enterprise.context.RequestScoped() used on injection point [field] @Inject @RequestScoped private org.jbpm.console.ng.bd.backend.server.DeploymentManagerEntryPointImpl.deploymentUnits
+09:22:57,704 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-14) WELD-001440 Scope type @javax.enterprise.context.SessionScoped() used on injection point [field] @Inject @SessionScoped private org.uberfire.backend.server.UserServicesImpl.identity
+09:22:57,731 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-14) WELD-001440 Scope type @javax.enterprise.context.SessionScoped() used on injection point [field] @Inject @SessionScoped private org.kie.workbench.common.screens.explorer.backend.server.ExplorerServiceImpl.identity
+09:22:57,735 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-14) WELD-001440 Scope type @javax.enterprise.context.SessionScoped() used on injection point [field] @Inject @SessionScoped private org.kie.workbench.common.screens.explorer.backend.server.ExplorerServiceImpl.sessionInfo
+09:22:57,748 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-14) WELD-001440 Scope type @javax.enterprise.context.SessionScoped() used on injection point [field] @Inject @SessionScoped private org.guvnor.inbox.backend.server.InboxServiceImpl.identity
+09:22:57,817 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-14) WELD-001440 Scope type @javax.enterprise.context.RequestScoped() used on injection point [field] @Inject @RequestScoped private org.jbpm.designer.repository.vfs.VFSRepository.descriptor
+09:22:57,956 INFO  [org.apache.sshd.common.util.SecurityUtils] (MSC service thread 1-14) BouncyCastle not registered, using the default JCE provider
+09:23:09,395 INFO  [org.guvnor.m2repo.backend.server.GuvnorM2Repository] (MSC service thread 1-14) Maven Repository root set to: repositories\kie
+09:23:09,397 INFO  [org.guvnor.m2repo.backend.server.GuvnorM2Repository] (MSC service thread 1-14) Creating Maven Repository root: repositories\kie
+09:23:09,468 WARN  [org.kie.scanner.embedder.MavenSettings] (MSC service thread 1-14) Environment variable M2_HOME is not set
+09:23:09,608 INFO  [org.jbpm.executor.impl.ExecutorImpl] (MSC service thread 1-14) Starting Executor Component ...
+ 	 - Thread Pool Size: 1
+ 	 - Interval: 3 Seconds
+ 	 - Retries per Request: 3
+
+09:23:09,643 INFO  [org.kie.services.remote.jms.RetryTrackerSingleton] (MSC service thread 1-8) JMS message retry limit set to 2
+09:23:09,750 INFO  [solder-servlet] (MSC service thread 1-2) Catch Integration for Servlets enabled
+09:23:09,973 INFO  [org.jboss.errai.bus.server.cluster.noop.NoopClusteringProvider] (MSC service thread 1-2) clustering support not configured.
+09:23:09,981 INFO  [org.jboss.errai.bus.server.service.bootstrap.OrderedBootstrap] (MSC service thread 1-2) starting errai bus ...
+09:23:09,984 INFO  [org.jboss.errai.bus.server.service.bootstrap.DefaultComponents] (MSC service thread 1-2) authentication adapter configured: org.jboss.errai.bus.server.security.auth.JAASAdapter
+09:23:09,993 INFO  [org.jboss.errai.bus.server.service.bootstrap.DefaultComponents] (MSC service thread 1-2) using dispatcher implementation: org.jboss.errai.bus.server.SimpleDispatcher
+09:23:10,000 INFO  [org.jboss.errai.bus.server.service.bootstrap.DefaultComponents] (MSC service thread 1-2) using session provider implementation: org.jboss.errai.bus.server.HttpSessionProvider
+09:23:10,013 INFO  [org.jboss.errai.bus.server.service.bootstrap.LoadExtensions] (MSC service thread 1-2) searching for errai extensions ...
+09:23:10,021 INFO  [org.jboss.errai.bus.server.service.bootstrap.OrderedBootstrap] (MSC service thread 1-2) errai bus started.
+09:23:10,074 INFO  [org.jboss.web] (MSC service thread 1-2) JBAS018210: Registering web context: /jbpm-console
+09:23:10,082 INFO  [org.jboss.as] (MSC service thread 1-3) JBAS015951: Admin console listening on http://127.0.0.1:9990
+09:23:10,085 INFO  [org.jboss.as] (MSC service thread 1-3) JBAS015874: JBoss AS 7.1.1.Final "Brontes" started in 55897ms - Started 673 of 757 services (82 services are passive or on-demand)
+09:23:15,258 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018559: Deployed "jbpm-console.war"
+09:23:15,262 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018559: Deployed "dashboard-builder.war"
+09:23:22,972 INFO  [org.apache.sshd.server.session.ServerSession] (pool-15-thread-1) Session created from /127.0.0.1:56387
+09:23:22,975 INFO  [org.apache.sshd.server.keyprovider.SimpleGeneratorHostKeyProvider] (pool-15-thread-1) Generating host key...
+09:23:23,522 INFO  [org.apache.sshd.server.session.ServerSession] (pool-15-thread-7) Session admin@/127.0.0.1:56387 authenticated
+09:23:23,537 INFO  [org.apache.sshd.server.channel.ChannelSession] (pool-15-thread-2) Executing command: git-upload-pack '/system'
+09:23:27,242 INFO  [org.apache.sshd.server.session.ServerSession] (pool-15-thread-9) Session admin@/127.0.0.1:56387 closed
+09:23:27,257 INFO  [org.apache.sshd.server.session.ServerSession] (pool-15-thread-3) Session created from /127.0.0.1:56388
+09:23:27,286 INFO  [org.apache.sshd.server.session.ServerSession] (pool-15-thread-8) Session admin@/127.0.0.1:56388 authenticated
+09:23:27,288 INFO  [org.apache.sshd.server.channel.ChannelSession] (pool-15-thread-2) Executing command: git-upload-pack '/system'
+09:23:27,297 INFO  [org.apache.sshd.server.session.ServerSession] (pool-15-thread-1) Session admin@/127.0.0.1:56388 closed
+09:23:27,438 INFO  [org.apache.sshd.server.session.ServerSession] (pool-15-thread-6) Session created from /127.0.0.1:56389
+09:23:27,475 INFO  [org.apache.sshd.server.session.ServerSession] (pool-15-thread-2) Session admin@/127.0.0.1:56389 authenticated
+09:23:27,482 INFO  [org.apache.sshd.server.channel.ChannelSession] (pool-15-thread-5) Executing command: git-receive-pack '/system'
+09:23:31,444 INFO  [org.apache.sshd.server.session.ServerSession] (pool-15-thread-3) Session admin@/127.0.0.1:56389 closed
+09:23:34,030 INFO  [org.drools.compiler.kie.builder.impl.KieRepositoryImpl] (pool-16-thread-1) KieModule was added:ZipKieModule[ ReleaseId=de.uniba.dsg:InclusiveDiverging_ParallelConverging:1.0file=C:\Users\admin\.m2\repository\de\uniba\dsg\InclusiveDiverging_ParallelConverging\1.0\InclusiveDiverging_ParallelConverging-1.0.jar]
+09:23:39,812 INFO  [org.jboss.resteasy.cdi.CdiInjectorFactory] (http-localhost-127.0.0.1-8080-1) Found BeanManager at java:comp/BeanManager

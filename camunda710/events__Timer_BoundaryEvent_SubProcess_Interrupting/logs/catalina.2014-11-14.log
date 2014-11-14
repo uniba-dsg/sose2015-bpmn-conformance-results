@@ -1,0 +1,255 @@
+Nov 14, 2014 2:21:24 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_05\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\MiKTeX 2.9\miktex\bin\;C:\Program Files (x86)\Git\cmd;C:\Program Files\Java\jdk1.8.0_05\bin;C:\tools\apache-ant-1.8.3\bin;.
+Nov 14, 2014 2:21:24 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Nov 14, 2014 2:21:24 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Nov 14, 2014 2:21:24 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 367 ms
+Nov 14, 2014 2:21:25 PM org.camunda.bpm.container.impl.tomcat.deployment.TomcatParseBpmPlatformXmlStep lookupBpmPlatformXmlFromCatalinaConfDirectory
+INFO: Found camunda bpm platform configuration in CATALINA_BASE/CATALINA_HOME conf directory [C:\betsy_master\server\camunda710\server\apache-tomcat-7.0.50\conf\bpm-platform.xml] at file:/C:/betsy_master/server/camunda710/server/apache-tomcat-7.0.50/conf/bpm-platform.xml
+Nov 14, 2014 2:21:25 PM org.camunda.bpm.engine.impl.jobexecutor.JobExecutor start
+INFO: Starting up the JobExecutor[org.camunda.bpm.engine.impl.jobexecutor.RuntimeContainerJobExecutor].
+Nov 14, 2014 2:21:25 PM org.camunda.bpm.engine.impl.jobexecutor.SequentialJobAcquisitionRunnable run
+INFO: JobExecutor[org.camunda.bpm.engine.impl.jobexecutor.RuntimeContainerJobExecutor] starting to acquire jobs
+Nov 14, 2014 2:21:25 PM org.camunda.bpm.engine.impl.cfg.ProcessEngineConfigurationImpl invokePreInit
+INFO: PLUGIN ProcessApplicationEventListenerPlugin activated on process engine default
+Nov 14, 2014 2:21:26 PM org.camunda.bpm.engine.impl.db.DbSqlSession executeSchemaResource
+INFO: performing create on engine with resource org/camunda/bpm/engine/db/create/activiti.h2.create.engine.sql
+Nov 14, 2014 2:21:26 PM org.camunda.bpm.engine.impl.db.DbSqlSession executeSchemaResource
+INFO: performing create on history with resource org/camunda/bpm/engine/db/create/activiti.h2.create.history.sql
+Nov 14, 2014 2:21:26 PM org.camunda.bpm.engine.impl.db.DbSqlSession executeSchemaResource
+INFO: performing create on identity with resource org/camunda/bpm/engine/db/create/activiti.h2.create.identity.sql
+Nov 14, 2014 2:21:26 PM org.camunda.bpm.engine.impl.db.DbSqlSession checkHistoryLevel
+INFO: No historyLevel property found in database.
+Nov 14, 2014 2:21:26 PM org.camunda.bpm.engine.impl.db.DbSqlSession dbCreateHistoryLevel
+INFO: Creating historyLevel property in database with value: full
+Nov 14, 2014 2:21:26 PM org.camunda.bpm.engine.impl.ProcessEngineImpl <init>
+INFO: ProcessEngine default created
+Nov 14, 2014 2:21:26 PM org.camunda.bpm.container.impl.tomcat.TomcatBpmPlatformBootstrap deployBpmPlatform
+INFO: camunda BPM platform sucessfully started on Apache Tomcat/7.0.50.
+Nov 14, 2014 2:21:26 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Nov 14, 2014 2:21:26 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.50
+Nov 14, 2014 2:21:26 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive C:\betsy_master\server\camunda710\server\apache-tomcat-7.0.50\webapps\camunda-example-wait-states-7.1.0-Final.war
+Nov 14, 2014 2:21:27 PM org.camunda.bpm.application.impl.ServletProcessApplicationDeployer onStartup
+INFO: Detected @ProcessApplication class org.camunda.bpm.example.wait.states.WaitStatesProcessApplication
+Nov 14, 2014 2:21:27 PM org.camunda.bpm.container.impl.jmx.deployment.ParseProcessesXmlStep parseProcessesXmlFiles
+INFO: Found process application file at file:/C:/betsy_master/server/camunda710/server/apache-tomcat-7.0.50/webapps/camunda-example-wait-states-7.1.0-Final/WEB-INF/classes/META-INF/processes.xml
+Nov 14, 2014 2:21:28 PM org.camunda.bpm.container.impl.jmx.deployment.DeployProcessArchiveStep logDeploymentSummary
+INFO: Deployment summary for process archive 'camunda-example-wait-states-7.1.0-Final': 
+
+        called-process.bpmn
+        wait-states.png
+        called-process.png
+        wait-states.bpmn
+
+Nov 14, 2014 2:21:28 PM org.camunda.bpm.engine.impl.bpmn.deployer.BpmnDeployer deploy
+INFO: Processing resource called-process.bpmn
+Nov 14, 2014 2:21:29 PM org.camunda.bpm.engine.impl.bpmn.deployer.BpmnDeployer deploy
+INFO: Processing resource wait-states.png
+Nov 14, 2014 2:21:29 PM org.camunda.bpm.engine.impl.bpmn.deployer.BpmnDeployer deploy
+INFO: Processing resource called-process.png
+Nov 14, 2014 2:21:29 PM org.camunda.bpm.engine.impl.bpmn.deployer.BpmnDeployer deploy
+INFO: Processing resource wait-states.bpmn
+Nov 14, 2014 2:21:29 PM org.camunda.bpm.engine.impl.application.ProcessApplicationManager logRegistration
+INFO: ProcessApplication 'camunda-example-wait-states-7.1.0-Final' registered for DB deployments [246b349e-6c01-11e4-bb89-001999bf076c]. Will execute process definitions 
+
+        calledProcess[version: 1, id: calledProcess:1:248f3763-6c01-11e4-bb89-001999bf076c]
+        waitStates[version: 1, id: waitStates:1:248f5e74-6c01-11e4-bb89-001999bf076c]
+
+Nov 14, 2014 2:21:29 PM org.camunda.bpm.container.impl.jmx.JmxRuntimeContainerDelegate deployProcessApplication
+INFO: Process Application camunda-example-wait-states-7.1.0-Final successfully deployed.
+Nov 14, 2014 2:21:29 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\betsy_master\server\camunda710\server\apache-tomcat-7.0.50\webapps\camunda
+Nov 14, 2014 2:21:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\betsy_master\server\camunda710\server\apache-tomcat-7.0.50\webapps\camunda-invoice
+Nov 14, 2014 2:21:31 PM org.camunda.bpm.application.impl.ServletProcessApplicationDeployer onStartup
+INFO: Detected @ProcessApplication class org.camunda.bpm.example.invoice.InvoiceProcessApplication
+Nov 14, 2014 2:21:31 PM org.camunda.bpm.container.impl.jmx.deployment.ParseProcessesXmlStep parseProcessesXmlFiles
+INFO: Found process application file at file:/C:/betsy_master/server/camunda710/server/apache-tomcat-7.0.50/webapps/camunda-invoice/WEB-INF/classes/META-INF/processes.xml
+Nov 14, 2014 2:21:31 PM org.camunda.bpm.container.impl.jmx.deployment.DeployProcessArchiveStep logDeploymentSummary
+INFO: Deployment summary for process archive 'camunda-invoice': 
+
+        invoice.png
+        invoice.bpmn
+
+Nov 14, 2014 2:21:31 PM org.camunda.bpm.engine.impl.bpmn.deployer.BpmnDeployer deploy
+INFO: Processing resource invoice.png
+Nov 14, 2014 2:21:31 PM org.camunda.bpm.engine.impl.bpmn.deployer.BpmnDeployer deploy
+INFO: Processing resource invoice.bpmn
+Nov 14, 2014 2:21:31 PM org.camunda.bpm.engine.impl.application.ProcessApplicationManager logRegistration
+INFO: ProcessApplication 'camunda-invoice' registered for DB deployments [25d54bec-6c01-11e4-bb89-001999bf076c]. Will execute process definitions 
+
+        invoice[version: 1, id: invoice:1:25da7c0f-6c01-11e4-bb89-001999bf076c]
+
+Nov 14, 2014 2:21:31 PM org.camunda.bpm.example.invoice.DemoDataGenerator createUsers
+INFO: Generating demo data for invoice showcase
+Nov 14, 2014 2:21:31 PM org.camunda.bpm.container.impl.jmx.JmxRuntimeContainerDelegate deployProcessApplication
+INFO: Process Application camunda-invoice successfully deployed.
+Nov 14, 2014 2:21:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\betsy_master\server\camunda710\server\apache-tomcat-7.0.50\webapps\camunda-welcome
+Nov 14, 2014 2:21:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\betsy_master\server\camunda710\server\apache-tomcat-7.0.50\webapps\cycle
+Nov 14, 2014 2:21:35 PM org.springframework.web.context.ContextLoader initWebApplicationContext
+INFO: Root WebApplicationContext: initialization started
+Nov 14, 2014 2:21:35 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing Root WebApplicationContext: startup date [Fri Nov 14 14:21:35 CET 2014]; root of context hierarchy
+Nov 14, 2014 2:21:35 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\betsy_master\server\camunda710\server\apache-tomcat-7.0.50\webapps\cycle\WEB-INF\classes\spring\configuration.xml]
+Nov 14, 2014 2:21:36 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\betsy_master\server\camunda710\server\apache-tomcat-7.0.50\webapps\cycle\WEB-INF\classes\spring\connector-configurations.xml]
+Nov 14, 2014 2:21:36 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\betsy_master\server\camunda710\server\apache-tomcat-7.0.50\webapps\cycle\WEB-INF\classes\spring\context.xml]
+Nov 14, 2014 2:21:36 PM org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider registerDefaultFilters
+INFO: JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+Nov 14, 2014 2:21:36 PM org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider registerDefaultFilters
+INFO: JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+Nov 14, 2014 2:21:36 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\betsy_master\server\camunda710\server\apache-tomcat-7.0.50\webapps\cycle\WEB-INF\classes\spring\spring-persistence.xml]
+Nov 14, 2014 2:21:36 PM org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor <init>
+INFO: JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Nov 14, 2014 2:21:36 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2e152e8e: defining beans [cycleConfiguration,vfsConnectorDefinition,signavioConnectorDefinition,svnConnectorDefinition,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.aop.config.internalAutoProxyCreator,loginAspect,threadsafeAspect,scopedTarget.connectorCache,connectorCache,connectorRegistry,encryptionServiceImpl,signavioConnector,cycleExceptionMapper,bpmnDiagramRepository,connectorConfigurationRepository,connectorCredentialsRepository,roundtripRepository,userRepository,synchronizationService,defaultMailSessionProvider,mailService,templateConfiguration,templateExceptionMapper,templateMessageBodyWriter,webExceptionMapper,defaultService,errorViewService,initialConfigurationService,loginService,bpmnDiagramService,connectorConfigurationService,connectorCredentialsService,connectorService,roundtripService,userService,testRunnerService,viewService,securityAspect,securityContext,securityService,securityExceptionMapper,entityManagerFactory,transactionManager,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0,i18n,templateResolver,templateEngine]; root of factory hierarchy
+Nov 14, 2014 2:21:37 PM org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean createNativeEntityManagerFactory
+INFO: Building JPA container EntityManagerFactory for persistence unit 'cyclePU'
+Nov 14, 2014 2:21:37 PM org.hibernate.annotations.common.Version <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+Nov 14, 2014 2:21:37 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {4.2.0.SP1}
+Nov 14, 2014 2:21:37 PM org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+Nov 14, 2014 2:21:37 PM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+Nov 14, 2014 2:21:37 PM org.hibernate.ejb.Ejb3Configuration configure
+INFO: HHH000204: Processing PersistenceUnitInfo [
+	name: cyclePU
+	...]
+Nov 14, 2014 2:21:37 PM org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator instantiateExplicitConnectionProvider
+INFO: HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+Nov 14, 2014 2:21:37 PM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Nov 14, 2014 2:21:37 PM org.hibernate.engine.jdbc.internal.LobCreatorBuilder useContextualLobCreation
+INFO: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+Nov 14, 2014 2:21:37 PM org.hibernate.engine.transaction.internal.TransactionFactoryInitiator initiateService
+INFO: HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+Nov 14, 2014 2:21:37 PM org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory <init>
+INFO: HHH000397: Using ASTQueryTranslatorFactory
+Nov 14, 2014 2:21:38 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: HHH000228: Running hbm2ddl schema update
+Nov 14, 2014 2:21:38 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: HHH000102: Fetching database metadata
+Nov 14, 2014 2:21:38 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: HHH000396: Updating schema
+Nov 14, 2014 2:21:38 PM org.hibernate.tool.hbm2ddl.DatabaseMetadata getTableMetadata
+INFO: HHH000262: Table not found: cy_bpmn_diagram
+Nov 14, 2014 2:21:38 PM org.hibernate.tool.hbm2ddl.DatabaseMetadata getTableMetadata
+INFO: HHH000262: Table not found: cy_connector_attributes
+Nov 14, 2014 2:21:38 PM org.hibernate.tool.hbm2ddl.DatabaseMetadata getTableMetadata
+INFO: HHH000262: Table not found: cy_connector_config
+Nov 14, 2014 2:21:38 PM org.hibernate.tool.hbm2ddl.DatabaseMetadata getTableMetadata
+INFO: HHH000262: Table not found: cy_connector_cred
+Nov 14, 2014 2:21:38 PM org.hibernate.tool.hbm2ddl.DatabaseMetadata getTableMetadata
+INFO: HHH000262: Table not found: cy_roundtrip
+Nov 14, 2014 2:21:38 PM org.hibernate.tool.hbm2ddl.DatabaseMetadata getTableMetadata
+INFO: HHH000262: Table not found: cy_user
+Nov 14, 2014 2:21:38 PM org.hibernate.tool.hbm2ddl.DatabaseMetadata getTableMetadata
+INFO: HHH000262: Table not found: cy_bpmn_diagram
+Nov 14, 2014 2:21:38 PM org.hibernate.tool.hbm2ddl.DatabaseMetadata getTableMetadata
+INFO: HHH000262: Table not found: cy_connector_attributes
+Nov 14, 2014 2:21:38 PM org.hibernate.tool.hbm2ddl.DatabaseMetadata getTableMetadata
+INFO: HHH000262: Table not found: cy_connector_config
+Nov 14, 2014 2:21:38 PM org.hibernate.tool.hbm2ddl.DatabaseMetadata getTableMetadata
+INFO: HHH000262: Table not found: cy_connector_cred
+Nov 14, 2014 2:21:38 PM org.hibernate.tool.hbm2ddl.DatabaseMetadata getTableMetadata
+INFO: HHH000262: Table not found: cy_roundtrip
+Nov 14, 2014 2:21:38 PM org.hibernate.tool.hbm2ddl.DatabaseMetadata getTableMetadata
+INFO: HHH000262: Table not found: cy_user
+Nov 14, 2014 2:21:38 PM org.hibernate.tool.hbm2ddl.DatabaseMetadata getTableMetadata
+INFO: HHH000262: Table not found: cy_id_table
+Nov 14, 2014 2:21:38 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: HHH000232: Schema update complete
+Nov 14, 2014 2:21:38 PM org.springframework.web.context.ContextLoader initWebApplicationContext
+INFO: Root WebApplicationContext: initialization completed in 2958 ms
+Nov 14, 2014 2:21:38 PM com.sun.jersey.spi.spring.container.servlet.SpringServlet getContext
+INFO: Using default applicationContext
+Nov 14, 2014 2:21:38 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFO: Registering Spring bean, cycleExceptionMapper, of type org.camunda.bpm.cycle.exception.CycleExceptionMapper as a provider class
+Nov 14, 2014 2:21:38 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFO: Registering Spring bean, templateExceptionMapper, of type org.camunda.bpm.cycle.web.jaxrs.ext.TemplateExceptionMapper as a provider class
+Nov 14, 2014 2:21:38 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFO: Registering Spring bean, templateMessageBodyWriter, of type org.camunda.bpm.cycle.web.jaxrs.ext.TemplateMessageBodyWriter as a provider class
+Nov 14, 2014 2:21:38 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFO: Registering Spring bean, webExceptionMapper, of type org.camunda.bpm.cycle.web.jaxrs.ext.WebExceptionMapper as a provider class
+Nov 14, 2014 2:21:38 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFO: Registering Spring bean, defaultService, of type org.camunda.bpm.cycle.web.service.DefaultService as a root resource class
+Nov 14, 2014 2:21:38 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFO: Registering Spring bean, errorViewService, of type org.camunda.bpm.cycle.web.service.ErrorViewService as a root resource class
+Nov 14, 2014 2:21:38 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFO: Registering Spring bean, initialConfigurationService, of type org.camunda.bpm.cycle.web.service.InitialConfigurationService as a root resource class
+Nov 14, 2014 2:21:38 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFO: Registering Spring bean, loginService, of type org.camunda.bpm.cycle.web.service.LoginService as a root resource class
+Nov 14, 2014 2:21:38 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFO: Registering Spring bean, bpmnDiagramService, of type org.camunda.bpm.cycle.web.service.resource.BpmnDiagramService as a root resource class
+Nov 14, 2014 2:21:38 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFO: Registering Spring bean, connectorConfigurationService, of type org.camunda.bpm.cycle.web.service.resource.ConnectorConfigurationService as a root resource class
+Nov 14, 2014 2:21:38 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFO: Registering Spring bean, connectorCredentialsService, of type org.camunda.bpm.cycle.web.service.resource.ConnectorCredentialsService as a root resource class
+Nov 14, 2014 2:21:38 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFO: Registering Spring bean, connectorService, of type org.camunda.bpm.cycle.web.service.resource.ConnectorService as a root resource class
+Nov 14, 2014 2:21:38 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFO: Registering Spring bean, roundtripService, of type org.camunda.bpm.cycle.web.service.resource.RoundtripService as a root resource class
+Nov 14, 2014 2:21:38 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFO: Registering Spring bean, userService, of type org.camunda.bpm.cycle.web.service.resource.UserService as a root resource class
+Nov 14, 2014 2:21:38 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFO: Registering Spring bean, testRunnerService, of type org.camunda.bpm.cycle.web.service.test.TestRunnerService as a root resource class
+Nov 14, 2014 2:21:38 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFO: Registering Spring bean, viewService, of type org.camunda.bpm.cycle.web.service.ViewService as a root resource class
+Nov 14, 2014 2:21:38 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFO: Registering Spring bean, securityExceptionMapper, of type org.camunda.bpm.security.web.jaxrs.SecurityExceptionMapper as a provider class
+Nov 14, 2014 2:21:38 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.11 12/09/2011 10:27 AM'
+Nov 14, 2014 2:21:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\betsy_master\server\camunda710\server\apache-tomcat-7.0.50\webapps\docs
+Nov 14, 2014 2:21:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\betsy_master\server\camunda710\server\apache-tomcat-7.0.50\webapps\engine-rest
+Nov 14, 2014 2:21:40 PM org.jboss.resteasy.spi.ResteasyDeployment 
+INFO: Deploying javax.ws.rs.core.Application: class org.camunda.bpm.engine.rest.impl.application.DefaultApplication
+Nov 14, 2014 2:21:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\betsy_master\server\camunda710\server\apache-tomcat-7.0.50\webapps\examples
+Nov 14, 2014 2:21:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\betsy_master\server\camunda710\server\apache-tomcat-7.0.50\webapps\h2
+Nov 14, 2014 2:21:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\betsy_master\server\camunda710\server\apache-tomcat-7.0.50\webapps\host-manager
+Nov 14, 2014 2:21:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\betsy_master\server\camunda710\server\apache-tomcat-7.0.50\webapps\manager
+Nov 14, 2014 2:21:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\betsy_master\server\camunda710\server\apache-tomcat-7.0.50\webapps\ROOT
+Nov 14, 2014 2:21:44 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Nov 14, 2014 2:21:44 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Nov 14, 2014 2:21:44 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 19923 ms
+Nov 14, 2014 2:21:54 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive C:\betsy_master\server\camunda710\server\apache-tomcat-7.0.50\webapps\Timer_BoundaryEvent_SubProcess_Interrupting.war
+Nov 14, 2014 2:21:54 PM org.camunda.bpm.application.impl.ServletProcessApplicationDeployer onStartup
+INFO: Detected @ProcessApplication class de.uniba.dsg.ProcessTestApplication
+Nov 14, 2014 2:21:54 PM org.camunda.bpm.container.impl.jmx.deployment.ParseProcessesXmlStep parseProcessesXmlFiles
+INFO: Found process application file at file:/C:/betsy_master/server/camunda710/server/apache-tomcat-7.0.50/webapps/Timer_BoundaryEvent_SubProcess_Interrupting/WEB-INF/classes/META-INF/processes.xml
+Nov 14, 2014 2:21:54 PM org.camunda.bpm.container.impl.jmx.deployment.DeployProcessArchiveStep logDeploymentSummary
+INFO: Deployment summary for process archive 'Timer_BoundaryEvent_SubProcess_Interrupting': 
+
+        Timer_BoundaryEvent_SubProcess_Interrupting.bpmn
+
+Nov 14, 2014 2:21:54 PM org.camunda.bpm.engine.impl.bpmn.deployer.BpmnDeployer deploy
+INFO: Processing resource Timer_BoundaryEvent_SubProcess_Interrupting.bpmn
+Nov 14, 2014 2:21:54 PM org.camunda.bpm.engine.impl.application.ProcessApplicationManager logRegistration
+INFO: ProcessApplication 'Timer_BoundaryEvent_SubProcess_Interrupting Application' registered for DB deployments [33cb5d00-6c01-11e4-bb89-001999bf076c]. Will execute process definitions 
+
+        Timer_BoundaryEvent_SubProcess_Interrupting[version: 1, id: 33d03f02-6c01-11e4-bb89-001999bf076c]
+
+Nov 14, 2014 2:21:54 PM org.camunda.bpm.container.impl.jmx.JmxRuntimeContainerDelegate deployProcessApplication
+INFO: Process Application Timer_BoundaryEvent_SubProcess_Interrupting Application successfully deployed.

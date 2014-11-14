@@ -1,0 +1,5 @@
+127.0.0.1 - - [14/Nov/2014:15:16:40 +0100] "HEAD / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2014:15:16:41 +0100] "POST /activiti-rest/service/repository/deployments HTTP/1.1" 401 73
+127.0.0.1 - - [14/Nov/2014:15:16:41 +0100] "POST /activiti-rest/service/repository/deployments HTTP/1.1" 201 219
+127.0.0.1 - - [14/Nov/2014:15:16:41 +0100] "POST /activiti-rest/service/runtime/process-instances HTTP/1.1" 401 73
+127.0.0.1 - - [14/Nov/2014:15:16:41 +0100] "POST /activiti-rest/service/runtime/process-instances HTTP/1.1" 201 452
